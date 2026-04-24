@@ -1,0 +1,1662 @@
+{
+  "ui": {
+    "steps": "Trinn",
+    "prerequisites": "Forutsetninger",
+    "stepByStep": "Trinnvise instruksjoner",
+    "tipsNotes": "Tips og merknader",
+    "needMoreHelp": "Trenger du mer hjelp?",
+    "needMoreHelpText": "Hvis du har ytterligere spørsmål, kan du kontakte supportteamet vårt eller utforske andre artikler i denne seksjonen.",
+    "wasHelpful": "Var denne artikkelen nyttig?",
+    "yes": "Ja",
+    "no": "Nei",
+    "thankYes": "Takk for tilbakemeldingen!",
+    "thankYesMsg": "Vi er glade for at denne artikkelen var nyttig.",
+    "thankNo": "Takk for tilbakemeldingen.",
+    "thankNoMsg": "Vi beklager at denne artikkelen ikke var nyttig. Kontakt",
+    "contactSupport": "support",
+    "furtherAssistance": "for videre hjelp.",
+    "relatedArticles": "Relaterte artikler",
+    "stillNeedHelp": "Trenger du fortsatt hjelp?",
+    "contactSupportLink": "Kontakt support",
+    "home": "Hjem",
+    "returnToHub": "Tilbake til hjelpesenter",
+    "articleNotFound": "Artikkelen ble ikke funnet",
+    "browseByCategory": "Bla gjennom etter kategori",
+    "searchResults": "Søkeresultater",
+    "cantFind": "Finner du ikke det du leter etter?",
+    "heroTitle": "Hvordan kan vi hjelpe deg?",
+    "searchPlaceholder": "Søk etter artikler eller still et spørsmål",
+    "browseArticles": "Bla gjennom alle artikler i denne kategorien",
+    "categoryNames": {
+      "getStarted": "Kom i gang",
+      "admin": "Organisasjonsadministrator",
+      "mpg": "Veiledning for prosjektportefølje-administrator",
+      "team": "Teamadministrasjon",
+      "deliveryPlan": "Leveranseplan",
+      "fileDistribution": "Fildistribusjon",
+      "guidesSupport": "Guider og støtte",
+      "ia": "Bildeanalyse",
+      "decisions": "Administrere beslutninger",
+      "tasks": "Administrere oppgaver",
+      "prjDashboard": "Prosjektoversikt",
+      "prjSettings": "Prosjektinnstillinger",
+      "visualPlanning": "Visuell planlegging"
+    }
+  },
+  "categories": {
+    "getStarted": {
+      "msLogin": {
+        "title": "MS 365-innlogging",
+        "description": "Instruksjoner for innlogging med en Microsoft 365-konto.",
+        "prerequisites": [
+          "En gyldig Microsoft 365 arbeids- eller skolekonto er påkrevd."
+        ],
+        "steps": [
+          "Gå til <a href=\"https://portal.q360.no\" target=\"_blank\">portal.q360.no</a>.",
+          "Klikk <strong>Microsoft 365</strong>.",
+          "Skriv inn e-postadressen din.",
+          "Klikk <strong>Neste</strong>.",
+          "Skriv inn passordet ditt.",
+          "Klikk <strong>Logg inn</strong>.",
+          "Hvis du får spørsmålet <strong>Stay signed in?</strong>, velg <strong>Ja</strong> eller <strong>Nei</strong> basert på preferansen din."
+        ],
+        "tips": [
+          "Personlige Microsoft-kontoer støttes ikke."
+        ],
+        "videoCaption": "Innlogging"
+      },
+      "myProjects": {
+        "title": "Mine prosjekter",
+        "description": "Oversikt over prosjektporteføljer og prosjekter brukeren har tilgang til.",
+        "prerequisites": [
+          "Brukeren må være tildelt, lagt til som følger av, eller ha opprettet et prosjekt."
+        ],
+        "steps": [
+          "Klikk på nedtrekksikonet i toppmenylinjen.",
+          "Se listen over prosjekter."
+        ],
+        "tips": [
+          "Venstre side viser prosjektporteføljer, mens høyre side viser prosjektene som tilhører den valgte prosjektporteføljen.",
+          "Klikk på en prosjektportefølje for å vise alle prosjektene som tilhører den.",
+          "Bruk søkefeltet for å finne spesifikke prosjekter.",
+          "Fest et prosjekt til toppmenylinjen ved å klikke på det omrissede bindersikonet helt til høyre i raden.",
+          "Løsne et prosjekt fra toppmenylinjen ved å klikke på det fylte bindersikonet helt til høyre i raden."
+        ],
+        "videoCaption": "Vise prosjekter"
+      },
+      "myWork": {
+        "title": "Mitt arbeid",
+        "description": "Oversikt over arbeidselementer (oppgaver, beslutninger og dokumenter) som er tildelt, eid av eller fulgt av brukeren. Arbeidselementer fra alle prosjekter brukeren har tilgang til, er tilgjengelige her.",
+        "prerequisites": [
+          "Eksisterende elementer."
+        ],
+        "steps": [
+          "Klikk <strong>Mitt arbeid</strong> i toppmenylinjen.",
+          "Se arbeidselementene dine."
+        ],
+        "tips": [
+          "Hold oversikt over frister her.",
+          "Bruk trakter for å filtrere etter status eller sortere etter forfallsdato eller prioritet.",
+          "Bruk søkefeltet for å finne spesifikke elementer.",
+          "Bytt mellom Kanban- og listevisning."
+        ],
+        "videoCaption": "Administrere Mitt arbeid"
+      },
+      "myProfile": {
+        "title": "Min profil",
+        "description": "I Min profil kan brukere administrere personlige innstillinger og informasjonsflyt, samt se aktivitetene sine i systemet.",
+        "prerequisites": [
+          "Brukeren må være registrert og logget inn i systemet."
+        ],
+        "steps": [
+          "Klikk på avataren din øverst til høyre.",
+          "Velg <strong>Min profil</strong> fra nedtrekksmenyen.",
+          "Juster innstillingene dine."
+        ],
+        "tips": [
+          "Legg til eller oppdater kontaktinformasjonen din.",
+          "Administrer varsler og e-postinnstillinger.",
+          "Opprett brukeraktivitetsrapport."
+        ],
+        "videoCaption": "Redigere profil"
+      },
+      "notifications": {
+        "title": "Varsler",
+        "description": "Varsler i appen som brukes til å spore prosjektrelatert aktivitet og oppdateringer.",
+        "prerequisites": [
+          "Eksisterende varsler."
+        ],
+        "steps": [
+          "Klikk på bjelleikonet øverst til høyre.",
+          "Se nylige varsler."
+        ],
+        "tips": [
+          "Du kan aktivere eller deaktivere varsler i appen i Min profil.",
+          "Klikk på tallindikatoren for å markere alle varsler i en gruppe som sett.",
+          "Klikk på nedtrekksikonet for å utvide og vise varsler i en gruppe.",
+          "Klikk på et varsel for å navigere direkte til det relaterte prosjektet.",
+          "Varsler som er sett, kan markeres som usette ved å holde musepekeren over indikatorområdet og klikke på den røde indikatoren.",
+          "Klikk på den røde indikatoren på et varsel for å markere det som sett."
+        ],
+        "videoCaption": "Sjekke varsler"
+      }
+    },
+    "admin": {
+      "general": {
+        "title": "Generelle innstillinger",
+        "description": "Konfigurasjon av generelle organisasjonsinnstillinger knyttet til administrasjon og prosjektoppsett.",
+        "prerequisites": [
+          "Organisasjonsadministrator."
+        ],
+        "steps": [
+          "Klikk <strong>Organisation</strong> i toppmenylinjen.",
+          "Klikk <strong>Settings</strong> i organisasjonshodet øverst til høyre.",
+          "Juster organisasjonens innstillinger."
+        ],
+        "tips": [
+          "Last opp en logo.",
+          "Legg til eller oppdater standard fakturaadresse for organisasjonen.",
+          {
+            "text": "Styr hvem som kan opprette en ny prosjektportefølje:",
+            "notes": [
+              "Kun organisasjonsadministratorer",
+              "Alle"
+            ]
+          }
+        ],
+        "videoCaption": "Generelle innstillinger"
+      },
+      "projMan": {
+        "title": "Prosjektadministrasjon",
+        "description": "Oversikt over prosjekter i organisasjonen og tilhørende administrasjonsmuligheter.",
+        "prerequisites": [
+          "Eksisterende prosjekter."
+        ],
+        "steps": [
+          "Klikk <strong>Organisation</strong> i toppmenylinjen.",
+          "Klikk <strong>See more -></strong> på høyre side av <strong>Projects In Progress</strong>.",
+          "Se organisasjonens prosjekter."
+        ],
+        "tips": [
+          "Bruk søkefeltet for å finne spesifikke prosjekter.",
+          "Klikk på et prosjekt for å åpne detaljene.",
+          "Bytt mellom Kanban- og listevisning.",
+          "Opprett et nytt prosjekt.",
+          "Åpne innstillinger for prosjektportefølje."
+        ],
+        "videoCaption": "Administrere prosjekter"
+      },
+      "userMan": {
+        "title": "Brukeradministrasjon",
+        "description": "Administrasjon av brukere i organisasjonen, inkludert rolletildeling og kontostatus.",
+        "prerequisites": [
+          "Organisasjonsadministratorrettigheter kreves for å redigere en annen brukers administratorrettigheter eller markere en bruker som inaktiv."
+        ],
+        "steps": [
+          "Klikk <strong>Organisation</strong> i toppmenylinjen.",
+          "Klikk <strong>See more →</strong>.",
+          "Se organisasjonens brukere.",
+          "Klikk på ikonet med tre prikker helt til høyre for en brukers navn for å åpne nedtrekksmenyen.",
+          "Klikk <strong>Set as admin</strong> for å gi en bruker organisasjonsadministratorrettigheter.",
+          "Klikk <strong>Mark as inactive</strong> og deretter <strong>Confirm</strong> for å markere en bruker som inaktiv."
+        ],
+        "tips": [
+          "Bruk søkefeltet for å finne spesifikke brukere.",
+          "Sorter brukere etter sist innloggingsdato.",
+          "Inaktive brukere fjernes fra alle posisjoner, mister administratortilgang (hvis de har det), og ekskluderes fra tilgjengelige brukerlister."
+        ],
+        "videoCaption": "Administrere brukere"
+      },
+      "contMan": {
+        "title": "Kontaktadministrasjon",
+        "description": "Organisering av kontakter i organisasjonen ved hjelp av definerte seksjoner.",
+        "prerequisites": [
+          "Organisasjonsadministrator."
+        ],
+        "steps": [
+          "Klikk <strong>Organisation</strong> i toppmenylinjen.",
+          "Finn <strong>Contact</strong>-seksjonen til høyre.",
+          "Klikk <strong>Add +</strong>.",
+          "Velg et medlem fra kontaktlisten.",
+          "Velg seksjonen der du vil at kontakten skal være oppført.",
+          "Klikk <strong>Save</strong>."
+        ],
+        "tips": [
+          "Klikk på en kontaktrad for å se detaljer.",
+          "Når du viser kontaktdetaljene, klikker du <strong>Remove contact</strong> for å fjerne kontakten fra seksjonen.",
+          "Klikk på et seksjonsnavn for å gi det nytt navn."
+        ],
+        "videoCaption": "Administrere kontaktliste"
+      },
+      "mpg": {
+        "title": "Opprett prosjektportefølje",
+        "description": "En prosjektportefølje i Q360 samler relaterte prosjekter for felles rapportering og koordinering.",
+        "prerequisites": [
+          {
+            "text": "Organisasjonsadministratorer kan styre hvem som har lov til å opprette prosjektporteføljer i Generelle innstillinger. Det finnes 2 alternativer:",
+            "notes": [
+              "Kun organisasjonsadministratorer",
+              "Alle"
+            ]
+          }
+        ],
+        "instructionGroups": [
+          {
+            "label": "Metode 1",
+            "steps": [
+              "Klikk på nedtrekksikonet i toppmenylinjen.",
+              "Klikk <strong>New project portfolio</strong>.",
+              "Skriv inn navnet på prosjektporteføljen.",
+              "Systemet foreslår et kort navn, men du kan justere det ved behov.",
+              "Klikk <strong>Select a purpose</strong> for å åpne en nedtrekksliste.",
+              "Velg prosjektportefølje-formålet fra listen.",
+              "Klikk <strong>SAVE</strong>."
+            ]
+          },
+          {
+            "label": "Metode 2",
+            "steps": [
+              "Klikk <strong>Organisation</strong> i toppmenylinjen.",
+              "Klikk <strong>See more -></strong> på høyre side av <strong>Projects In Progress</strong>.",
+              "Klikk på listeikonet til venstre for <strong>Project portfolio</strong> øverst til høyre.",
+              "Gjenta trinn 2–7 fra den første metoden."
+            ]
+          }
+        ],
+        "tips": [
+          {
+            "text": "Hver prosjektportefølje har to navn:",
+            "notes": [
+              "<strong>Langt navn:</strong> Brukes som en beskrivende etikett sammen med prosjektnavnet, f.eks. <strong>E10 - Evenes lufthavn</strong> for europavei E10 nær Evenes lufthavn.<br><u>Merk:</u> Det lange navnet kan endres senere ved behov.",
+              "<strong>Kort navn:</strong> Brukes til å lage en <em>unik</em> etikett sammen med prosjektnavnet for å identifisere arbeidselementer, f.eks. <strong>E10-EVEN</strong> for europavei E10 nær Evenes lufthavn.<br><u>Merk:</u> Det korte navnet må være 2–5 tegn langt og kan ikke endres senere."
+            ]
+          },
+          "Det finnes 3 typer prosjektportefølje-formål: <strong>Kun interne prosjekter</strong>, <strong>Jeg er kunden i alle prosjekter</strong> og <strong>En annen organisasjon er kunden i alle prosjekter</strong>.",
+          "Tildel prosjektportefølje-administrator etter at du har opprettet prosjektporteføljen."
+        ],
+        "videoCaption": "Opprette en ny prosjektportefølje i Q360"
+      }
+    },
+    "mpg": {
+      "access": {
+        "title": "Tilgang til prosjektportefølje-innstillinger",
+        "description": "Hvert prosjekt i Q360 tilhører en prosjektportefølje. Prosjektportefølje-innstillinger gjør det mulig for administratorer å administrere konfigurasjoner og tillatelser på porteføljenivå.",
+        "prerequisites": [
+          "Brukeren må ha enten organisasjonsadministrator- eller prosjektportefølje-administratorrettigheter i Q360 for å få tilgang til prosjektportefølje-innstillinger."
+        ],
+        "steps": [
+          "Slik åpner du prosjektportefølje-innstillinger fra venstre sidemeny:",
+          "Naviger til prosjektet du vil administrere.",
+          "Klikk <strong>Settings</strong> i venstre sidemeny.",
+          "Klikk <strong>Project portfolio settings</strong>.",
+          "Slik åpner du prosjektportefølje-innstillinger fra prosjektvalglisten:",
+          "Klikk på nedtrekksikonet i toppmenylinjen.",
+          "Klikk på <strong>Settings ⚙</strong>-ikonet ved siden av prosjektportefølje-navnet.",
+          "Slik åpner du prosjektportefølje-innstillinger fra organisasjonssiden:",
+          "Klikk <strong>Organisation</strong> i toppmenylinjen.",
+          "Hvis prosjektporteføljen din ikke er oppført, klikk <strong>See more ➔</strong> på høyre side av <strong>Projects In Progress</strong>. Dette tar deg til listen over alle prosjekter du har tilgang til.",
+          "Klikk på <strong>settings ⚙</strong>-ikonet ved siden av prosjektportefølje-navnet."
+        ],
+        "tips": [
+          "<strong>settings ⚙</strong>-ikonet vises der du har tilgang til prosjektportefølje-innstillinger."
+        ],
+        "videoCaption": "Åpne prosjektportefølje-innstillinger fra ulike steder"
+      },
+      "ownership": {
+        "title": "Prosjektportefølje-eierskap",
+        "description": "Eierskap for prosjektportefølje i Q360 definerer hvem som har administrativ kontroll over en prosjektportefølje.",
+        "prerequisites": [
+          "Brukeren må ha enten organisasjonsadministrator- eller prosjektportefølje-administratorrettigheter i Q360 for å kunne administrere prosjektportefølje-eierskap."
+        ],
+        "instructionGroups": [
+          {
+            "label": "Legg til en prosjektportefølje-administrator fra organisasjonen din",
+            "steps": [
+              "Åpne prosjektportefølje-innstillinger.",
+              "Om nødvendig, bla ned til du ser <strong>Add a project portfolio admin</strong>.",
+              "Klikk <strong>Add a project portfolio admin</strong> for å åpne nedtrekksmenyen.",
+              "Bla eller begynn å skrive et navn for å finne brukeren.",
+              "Velg brukeren.",
+              "Klikk <strong>Add</strong>."
+            ]
+          },
+          {
+            "label": "Inviter en samarbeidende organisasjon",
+            "steps": [
+              "Åpne prosjektportefølje-innstillinger.",
+              "Om nødvendig, bla ned til du ser <strong>Enter an email or search for users</strong>.",
+              "Klikk <strong>Enter an email or search for users</strong>.",
+              "Bla eller begynn å skrive et navn for å finne brukeren.",
+              "Velg brukeren hvis den er oppført.",
+              "Klikk på <strong>Send an invitation</strong>-knappen."
+            ]
+          }
+        ],
+        "tips": [
+          {
+            "text": "En prosjektportefølje kan ha to organisasjoner som deler eierskapet. Som <strong>prosjektportefølje-administrator</strong> kan du gi prosjektportefølje-administratorrettigheter til andre medlemmer i organisasjonen din. Du kan også invitere medlemmer fra en annen organisasjon til å delta i prosjektet som prosjektportefølje-administrator:",
+            "notes": [
+              "Eieren, som alltid er kunden.",
+              "Med-eieren.",
+              "Dette oppsettet er nyttig når en samarbeidende partner administrerer prosjektet på vegne av kunden."
+            ]
+          },
+          "Som eier kan du invitere en med-eier til å samarbeide i denne prosjektporteføljen.",
+          "Som med-eier kan du invitere en organisasjon til å bli eier av denne prosjektporteføljen.",
+          "Hvis e-postadressen er registrert i systemet, skriv inn tre eller flere bokstaver og deretter @-tegnet. En liste med samsvarende e-postadresser vil vises. Dette vil øke nøyaktigheten av invitasjonen.",
+          "Begge organisasjonene har like rettigheter til å administrere prosjektinnstillinger. Kunden kan imidlertid fjerne med-eieren, mens med-eieren aldri kan fjerne kunden."
+        ],
+        "videoCaption": "Administrere prosjektportefølje-administratorrettigheter"
+      },
+      "subscription": {
+        "title": "Abonnementseierskap",
+        "description": "Abonnementseierskap i Q360 avgjør hvilken organisasjon som er ansvarlig for å administrere abonnementet for det valgte prosjektet. Dette er nyttig når kunden ikke håndterer betaling, for eksempel når en partnerorganisasjon overtar det økonomiske ansvaret på grunn av kontraktsmessige avtaler. Som prosjektportefølje-administrator kan du overføre abonnementseierskapet til en annen organisasjon som deltar i prosjektet.",
+        "prerequisites": [
+          "Brukeren må ha enten organisasjonsadministrator- eller prosjektportefølje-administratorrettigheter i Q360 for å kunne administrere abonnementseierskap.",
+          "Minst 1 prosjekt må eksistere i en prosjektportefølje."
+        ],
+        "steps": [
+          "Klikk på nedtrekksikonet i toppmenylinjen.",
+          "Klikk på <strong>Settings ⚙</strong>-ikonet ved siden av navnet på prosjektporteføljen for å åpne prosjektportefølje-innstillinger.",
+          "Klikk <strong>Subscription ownership</strong>.",
+          "Klikk på organisasjonsnavnet ved siden av et prosjektnavn for å åpne nedtrekksmenyen.",
+          "Velg en organisasjon fra nedtrekksmenyen.",
+          "Les advarslene for å forstå virkningen av endringen.",
+          "Klikk <strong>Confirm changes</strong>."
+        ],
+        "tips": [
+          "Som <strong>prosjektportefølje-administrator</strong> kan du velge en annen organisasjon som deltar i et prosjekt til å administrere abonnementet. Dette er nyttig når kunden ikke er ansvarlig for betaling, for eksempel på grunn av kontraktsforpliktelser.",
+          {
+            "text": "Organisasjonen som er valgt som <strong>Subscription Owner</strong>, er den eneste organisasjonen med tilgang til abonnementsinnstillinger. Følgende roller i den organisasjonen har tilgang:",
+            "notes": [
+              "Organisasjonsadministrator",
+              "Prosjektportefølje-administrator",
+              "Prosjektadministrator"
+            ]
+          }
+        ],
+        "videoCaption": "Administrere abonnementseierskap"
+      },
+      "createProject": {
+        "title": "Opprett prosjekt",
+        "description": "Å opprette et prosjekt i Q360 gjør det mulig å strukturere og administrere arbeidet innenfor en definert prosjektportefølje. Prosjekter gir en sentral kontekst for å organisere oppgaver, ressurser og rapportering på tvers av team. Organisasjonsadministratorer og prosjektportefølje-administratorer kan opprette prosjekter i den angitte prosjektporteføljen.",
+        "prerequisites": [
+          "Brukeren må ha enten organisasjonsadministrator- eller prosjektportefølje-administratorrettigheter i Q360 for å kunne opprette et prosjekt.",
+          "Minst 1 eksisterende prosjektportefølje."
+        ],
+        "steps": [
+          "Klikk på nedtrekksikonet i toppmenylinjen.",
+          "Velg prosjektporteføljen du vil opprette prosjektet i.",
+          "Klikk <strong>New project</strong> øverst til høyre.",
+          "Skriv inn prosjektnavnet.",
+          "Systemet vil foreslå et kort navn for prosjektet, men du kan justere det ved behov.",
+          "Klikk <strong>Create</strong>."
+        ],
+        "tips": [
+          {
+            "text": "Hvert prosjekt kan gjenkjennes ved to navn:",
+            "notes": [
+              "<strong>Langt navn:</strong> Brukes som en beskrivende etikett sammen med navnet på prosjektporteføljen, f.eks. <strong>E10 - Evenes lufthavn</strong> for europavei E10 nær Evenes lufthavn.<br><u>Merk:</u> Det lange navnet kan endres senere ved behov.",
+              "<strong>Kort navn:</strong> Brukes til å lage en <em>unik</em> etikett sammen med prosjektportefølje-kortnavnet for å identifisere arbeidselementer, f.eks. <strong>E10-EVEN</strong> for europavei E10 nær Evenes lufthavn.<br><u>Merk:</u> Det korte navnet må være 2–5 tegn langt og kan ikke endres senere."
+            ]
+          },
+          "Hvis kunden (prosjektportefølje-eierens organisasjon) mangler, kan prosjektportefølje-med-eieren kun opprette ett prosjekt i porteføljen."
+        ],
+        "videoCaption": "Opprette et nytt prosjekt i Q360"
+      }
+    },
+    "team": {
+      "structure": {
+        "title": "Teamstruktur",
+        "description": "Definisjon og administrasjon av prosjektets overordnede teamstruktur gjennom seksjoner og grupper.",
+        "prerequisites": [
+          "Prosjektadministrator.",
+          "Et prosjekt må være aktivt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Team</strong> i venstre sidemeny.",
+          "Klikk <strong>Edit team</strong> øverst til høyre.",
+          "Klikk <strong>New section</strong>.",
+          "Skriv inn et seksjonsnavn.",
+          "Klikk <strong>Save</strong> i dialogen.",
+          "Klikk <strong>Add group</strong> i den nylig opprettede seksjonen.",
+          "Skriv inn et gruppenavn.",
+          "Klikk <strong>SAVE</strong> i dialogen.",
+          "Klikk <strong>Done</strong>."
+        ],
+        "tips": [
+          "Sletting av en gruppe vil fjerne alle posisjoner i den. Vær forsiktig.",
+          "Dra og slipp en seksjon eller en gruppe for å endre rekkefølgen i teamstrukturen.",
+          "Velg en person som gruppen eller seksjonen rapporterer til."
+        ],
+        "videoCaption": "Administrere strukturer"
+      },
+      "positions": {
+        "title": "Administrer posisjoner",
+        "description": "Opprettelse og definisjon av posisjoner i grupper som brukere kan tildeles.",
+        "prerequisites": [
+          "Prosjektadministrator.",
+          "En gruppe må eksistere for å kunne inneholde posisjonen."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Team</strong> i venstre sidemeny.",
+          "Klikk <strong>Edit team</strong> øverst til høyre.",
+          "Klikk <strong>New position</strong> i ønsket gruppe.",
+          "Skriv inn en posisjonstittel.",
+          "Velg posisjonsrolle.",
+          "Klikk <strong>SAVE</strong> i dialogen.",
+          "Klikk <strong>Done</strong>."
+        ],
+        "tips": [
+          "Bruk generiske titler (f.eks. 'Senior Dev') i stedet for navn.",
+          "Klikk på ikonet med tre prikker øverst til høyre for å se alternativet <strong>Delete</strong>.",
+          "Klikk på posisjonstittelen i sidepanelet for å redigere navnet."
+        ],
+        "videoCaption": "Administrere posisjoner"
+      },
+      "assign": {
+        "title": "Tildel brukere",
+        "description": "Tildeling av brukere til posisjoner som er definert i teamstrukturen.",
+        "prerequisites": [
+          "Prosjektadministrator.",
+          "Posisjonen må være opprettet først."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Team</strong> i venstre sidemeny.",
+          "Klikk <strong>Edit team</strong> øverst til høyre.",
+          "Klikk på en ikke-tildelt posisjon (eller en med en bruker for å endre den tildelte brukeren).",
+          "Hvis en posisjon er tildelt, klikk på <strong>X</strong>-ikonet ved siden av brukerens navn, og velg deretter <strong>REMOVE</strong> i dialogen for å fjerne brukeren fra posisjonen.",
+          "Klikk <strong>Assign this position</strong>.",
+          "Velg en bruker fra nedtrekksmenyen.",
+          "Klikk <strong>SAVE</strong> i dialogen.",
+          "Klikk <strong>Done</strong>."
+        ],
+        "tips": [
+          "Du kan tildele en posisjon på nytt ved å søke etter en ny bruker og erstatte den eksisterende."
+        ],
+        "videoCaption": "Tildele brukere"
+      },
+      "roles": {
+        "title": "Roller og tillatelser",
+        "description": "Definere og konfigurere medlemsroller, inkludert tildeling av roller som Project Admin og Project Observer, og administrere deres ansvar og tillatelser.",
+        "prerequisites": [
+          "Prosjektadministrator.",
+          "En bruker må være tildelt en posisjon."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Team</strong> i venstre sidemeny.",
+          "Klikk <strong>Edit team</strong> øverst til høyre.",
+          "Klikk på brukeren hvis rolle du vil endre.",
+          "Klikk på brukerens nåværende rolle for å åpne nedtrekksmenyen.",
+          "Velg ny rolle (admin, deltaker, observatør).",
+          "Slå på <strong>Group Admin</strong> for å la dem administrere sin egen gruppe.",
+          "Klikk <strong>Done</strong>."
+        ],
+        "tips": [
+          "Group Admins kan bare redigere gruppen de er tildelt."
+        ],
+        "videoCaption": "Administrere roller"
+      },
+      "maint": {
+        "title": "Vedlikehold og maler",
+        "description": "Verktøy for vedlikehold av prosjektets teamstruktur, inkludert opprydding i eksisterende konfigurasjoner og lagring av gjenbrukbare maler.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Team</strong> i venstre sidemeny.",
+          "Klikk <strong>Edit team</strong> øverst til høyre.",
+          "Klikk <strong>Clean up</strong>.",
+          "Klikk <strong>Delete</strong> i dialogen.",
+          "Klikk <strong>Save as template</strong>.",
+          "Skriv inn malenavn.",
+          "Velg eller opprett en malkategori.",
+          "Velg et språk.",
+          "Klikk <strong>Save</strong> i dialogen.",
+          "Klikk <strong>Done</strong>."
+        ],
+        "tips": [
+          "Maler lagrer strukturen (roller/grupper), men ikke brukerne som er tildelt rollene/gruppene.",
+          "Gå gjennom teamstrukturen før du rydder opp."
+        ],
+        "videoCaption": "Vedlikeholdsverktøy"
+      }
+    },
+    "deliveryPlan": {
+      "deliveryPackage": {
+        "title": "Leveransepakke",
+        "description": "En leveransepakke definerer en enkelt leveransekjede mellom en produsent og en mottaker. Den grupperer oppføringer — de individuelle dokumentpostene som spores — og konfigurerer hvordan de flyter gjennom QA-prosessen og blir levert.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt.",
+          "Eksisterende leveransepakke."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>Alle mine leveransepakker</strong> øverst til venstre for å åpne en nedtrekksmeny.",
+          "Velg en leveransepakke fra nedtrekksmenyen.",
+          "Klikk fanen <strong>Oppføringer</strong> for å se oppføringer fra valgt leveransepakke gruppert etter oppføringstype.",
+          "Klikk fanen <strong>QA-plan</strong> for å se QA-faser og statuser for oppføringer fra valgt leveransepakke.",
+          "Klikk <strong>+ Ny oppføring</strong> øverst til høyre for å opprette en ny oppføring.",
+          "Klikk <strong>DLP-innstillinger</strong> og deretter blyantikonet ved siden av leveransepakkenavnet for å redigere innstillingene.",
+          "Klikk bryteren i kolonnen <strong>Publiser</strong> for å publisere en oppføring til <strong>Fildistribusjon</strong>."
+        ],
+        "tips": [
+          "Bruk søkefeltet for å finne spesifikke oppføringer.",
+          "Åpne oppføringsdetaljene ved å klikke på en oppføring.",
+          "Klikk <strong>DLP-innstillinger</strong> øverst til høyre for å endre leveransepakker, oppføringstyper og kvalitetssikringsinnstillinger på prosjektnivå."
+        ],
+        "videoCaption": "Bla gjennom leveransepakke"
+      },
+      "createDeliveryPackage": {
+        "title": "Opprett leveransepakke",
+        "description": "Før oppføringer kan spores eller leveres, må en pakke eksistere — den definerer samarbeidspartnere, leveransetidslinje, revisjonsregler og hvilke QA-faser hver oppføring må gjennom.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk på lenken <strong>Ta meg dit -></strong> under teksten <strong>Ingen leveransepakker ennå. Start med å opprette en leveransepakke i DLP-innstillinger</strong> midt på siden.",
+          "Klikk <strong>Ny leveransepakke +</strong> øverst til høyre.",
+          "Velg type leveransepakke.",
+          "Klikk <strong>Neste +</strong>.",
+          "Legg til tittel, start- og leveringsdatoer, beskrivelse og standard slingringsmonn for kvalitetssikring.",
+          "Velg QA-krav.",
+          "Velg leveringsmetode.",
+          "Klikk <strong>Lagre</strong>."
+        ],
+        "tips": [
+          "Du kan opprette opptil 3 leveransepakker per prosjekt.",
+          "Det finnes 3 typer leveransepakker: oppover, nedover og intern.",
+          "Organisasjonen som oppretter og leverer oppføringer kalles produsent, mens organisasjonen som mottar og godkjenner dem kalles mottaker.",
+          "Du kan oppdatere konfigurasjonen av leveransepakken og QA-krav når som helst via <strong>DLP-innstillinger</strong>.",
+          "I en oppover- eller nedoverpakke kan produsenten kun endre produsentens QA-krav, og mottakeren kun mottakerens QA-krav."
+        ],
+        "videoCaption": "Opprette leveransepakke"
+      },
+      "entryTypes": {
+        "title": "Oppføringstyper",
+        "description": "Oppføringstyper er dokumentkategorier som brukes til å klassifisere oppføringer innen en leveransepakke. Hver oppføring må ha en type når den opprettes.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>DLP-innstillinger</strong> øverst til høyre.",
+          "Klikk <strong>Oppføringstyper</strong>.",
+          "Se standard oppføringstyper."
+        ],
+        "tips": [
+          "Det finnes 4 standard oppføringstyper: Tegninger, Modeller, Andre dokumenter og Rapporter.",
+          "Du kan slette eller gi nytt navn til standard oppføringstyper.",
+          "Du kan opprette egendefinerte oppføringstyper."
+        ],
+        "videoCaption": "Se oppføringstyper"
+      },
+      "createEntryType": {
+        "title": "Opprett oppføringstype",
+        "description": "Gir funksjonalitet for å opprette og definere nye oppføringstyper innen et prosjekt.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>DLP-innstillinger</strong> øverst til høyre.",
+          "Klikk <strong>Oppføringstyper</strong>.",
+          "Klikk <strong>Ny type +</strong> øverst til høyre.",
+          "Angi entalls- og flertallsform av tittelen for den nye oppføringstypen.",
+          "Klikk <strong>Opprett</strong>."
+        ],
+        "tips": [
+          "Du kan slette eller gi nytt navn til egendefinerte oppføringstyper."
+        ],
+        "videoCaption": "Opprette oppføringstype"
+      },
+      "createEntry": {
+        "title": "Opprett oppføring",
+        "description": "Gir funksjonalitet for å opprette og definere nye oppføringer innen en leveransepakke.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt.",
+          "Eksisterende leveransepakke."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>Alle mine leveransepakker</strong> øverst til venstre for å åpne en nedtrekksmeny.",
+          "Velg en leveransepakke fra nedtrekksmenyen.",
+          "Klikk <strong>+ Ny oppføring</strong> øverst til høyre.",
+          "Angi oppføringsnummer, neste revisjon, tittel og beskrivelse.",
+          "Velg en oppføringstype og ansvarlig person for dokumentet.",
+          "Velg leveringsdato.",
+          "Klikk <strong>Lagre</strong>."
+        ],
+        "tips": [
+          "Du kan angi lokasjonen som oppføringen tilhører eller er ment for."
+        ],
+        "videoCaption": "Opprette oppføring"
+      },
+      "qaStages": {
+        "title": "Kvalitetssikringsfaser",
+        "description": "QA-arbeidsflyten styrer hvordan oppføringer blir gjennomgått og godkjent før levering. Produsentens QA-faser kjøres først, etterfulgt av mottakerens QA-faser — hver fase kan tildeles et teammedlem, få en leveringsdato, og enten godkjennes eller avvises, der avvisninger utløser en ny dokumentversjon.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>DLP-innstillinger</strong> øverst til høyre.",
+          "Klikk <strong>Kvalitetssikring (Produsent)</strong> eller <strong>Kvalitetssikring (Mottaker)</strong>.",
+          "Klikk på en QA-fase for produsent eller mottaker.",
+          "Rediger QA-fasen ved å endre tittel, beskrivelse, antall dager for å utføre fasen, og om den skal utføres av den tildelte.",
+          "Klikk <strong>Lagre</strong>."
+        ],
+        "tips": [
+          "Du kan slette standard QA-faser.",
+          "Omorganiser QA-faser ved å dra og slippe dem.",
+          "Du kan opprette egendefinerte QA-faser.",
+          "Organisasjonen som oppretter og leverer oppføringer kalles produsent, mens organisasjonen som mottar og godkjenner dem kalles mottaker.",
+          "Det finnes 4 standard QA-faser for produsent: egenkontroll, tverrfaglig kontroll, dokumentkontroll og fagkontroll.",
+          "Det finnes 2 standard QA-faser for mottaker: fagkontroll og publiseringskontroll."
+        ],
+        "videoCaption": "Bla gjennom QA-faser"
+      },
+      "createQAStage": {
+        "title": "Opprett QA-fase",
+        "description": "QA-faser definerer kontrollpunktene som oppføringer må passere før levering. Faser opprettes på prosjektnivå i DLP-innstillinger og aktiveres deretter per leveransepakke etter behov.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt.",
+          "Eksisterende leveransepakke."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>DLP-innstillinger</strong> øverst til høyre.",
+          "Klikk <strong>Kvalitetssikring (Produsent)</strong> eller <strong>Kvalitetssikring (Mottaker)</strong>.",
+          "Klikk <strong>Ny fase +</strong> øverst til høyre.",
+          "Angi fasetittel, beskrivelse, antall dager for å utføre fasen, og om den skal utføres av den tildelte.",
+          "Klikk <strong>Opprett</strong>.",
+          "Klikk <strong>Leveransepakke</strong> og deretter blyantikonet ved siden av leveransepakkenavnet for å redigere innstillingene.",
+          "Finn den nylig opprettede QA-fasen i seksjonen for QA-krav.",
+          "Klikk <strong>Ikke brukt</strong> ved siden av navnet for å åpne en nedtrekksmeny.",
+          "Velg <strong>Påkrevd</strong> eller <strong>Valgfri</strong> fra nedtrekksmenyen for å aktivere QA-fasen for leveransepakken."
+        ],
+        "tips": [
+          "Du kan slette egendefinerte QA-faser.",
+          "Omorganiser QA-faser ved å dra og slippe dem.",
+          "Organisasjonen som oppretter og leverer oppføringer kalles produsent, mens organisasjonen som mottar og godkjenner dem kalles mottaker.",
+          "Brukere fra produsentorganisasjonen kan opprette, redigere og slette både produsent- og mottakerfaser, men kan kun aktivere eller deaktivere produsentens QA-faser i en leveransepakke.",
+          "Brukere fra mottakerorganisasjonen kan opprette, redigere og slette både produsent- og mottakerfaser, men kan kun aktivere eller deaktivere mottakerens QA-faser i en leveransepakke."
+        ],
+        "videoCaption": "Opprette QA-fase"
+      },
+      "publish": {
+        "title": "Publiser oppføring",
+        "description": "Publisering av en oppføring gjør den tilgjengelig på siden Fildistribusjon, hvor den kan vises og lastes ned av de tiltenkte mottakerne.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt.",
+          "Eksisterende oppføringer."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>Alle mine leveransepakker</strong> øverst til venstre for å åpne en nedtrekksmeny.",
+          "Velg en leveransepakke fra nedtrekksmenyen.",
+          "Hvis ikke valgt, klikk fanen <strong>Oppføringer</strong>.",
+          "Finn oppføringen du ønsker å publisere.",
+          "Klikk bryteren <strong>Publiser</strong> helt til høyre i oppføringens rad.",
+          "Bekreft at oppføringen er publisert ved å navigere til <strong>Fildistribusjon</strong>."
+        ],
+        "tips": [
+          "Du kan avpublisere en oppføring ved å klikke på <strong>Publiser</strong>-bryteren igjen."
+        ],
+        "videoCaption": "Publisere oppføring"
+      },
+      "funnels": {
+        "title": "Trakter",
+        "description": "Trakter er lagrede filtervisninger som lar brukere raskt veksle mellom forhåndskonfigurerte utvalg av innlegg på tvers av alle leveransepakker. Enhver kombinasjon av filtre — etter status, innleggstype, pakke, ansvarlig, sted og mer — kan lagres som en navngitt trakt og gjenbrukes når som helst.",
+        "prerequisites": [
+          "Leveranseplanmodul kjøpt.",
+          "Eksisterende innlegg."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>Traktinnstillinger</strong>.",
+          "Filtrer oppføringer etter status, leveransepakke, oppføringstype, leveringstype eller ansvarlig gruppe.",
+          "Sorter oppføringer etter oppførings-ID, oppføringstype, revisjonsdato osv.",
+          "Klikk <strong>Traktinnstillinger</strong>.",
+          "Klikk <strong>Ny trakt fra gjeldende oppsett</strong>.",
+          "Angi et nytt trakt-navn.",
+          "Klikk <strong>Lagre</strong> i dialogen."
+        ],
+        "tips": [
+          "Hvis <strong>Traktinnstillinger</strong> ikke er synlige, klikk på de tre vertikale linjene ved siden av <strong>Søk</strong>-feltet for å åpne dem.",
+          "For å holde <strong>Traktinnstillinger</strong> permanent synlige, huk av boksen ved siden av <strong>Vis traktdetaljer</strong> når traktinnstillingene er åpne."
+        ],
+        "videoCaption": "Bruke trakter"
+      }
+    },
+    "fileDistribution": {
+      "overview": {
+        "title": "Oversikt",
+        "description": "Fildistribusjon-siden gir en komplett oversikt over dokumentoppføringer fra Leveranseplanen, inkludert publiserte oppføringer, foreldede oppføringer og oppføringer som for øyeblikket er under produksjon. Hver oppføring viser oppførings-ID, gjeldende status, revisjon, dato, lokasjon, tittel, oppføringstype og ansvarlig gruppe. Publiserte oppføringer inkluderer en nedlastingslenke for å hente den nyeste distribuerte filen.",
+        "prerequisites": [
+          "Fildistribusjonsmodul kjøpt.",
+          "Publiserte oppføringer."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Fildistribusjon</strong> i venstre sidemeny.",
+          "Bla gjennom listen over dokumentoppføringer."
+        ],
+        "tips": [
+          "Bruk søkefeltet for å finne spesifikke oppføringer.",
+          "Bruk traktinnstillinger for å filtrere og sortere oppføringer.",
+          "For å finne oppføringer som er markert som publisert, klikk <strong>Publisert</strong>-trakten eller velg publisert status i <strong>Traktinnstillinger</strong>.",
+          "Åpne oppføringsdetaljer ved å klikke på en oppføring."
+        ],
+        "videoCaption": "Bla gjennom fildistribusjon"
+      },
+      "funnels": {
+        "title": "Trakter",
+        "description": "Trakter er lagrede filtervisninger som lar brukere raskt bytte mellom forhåndskonfigurerte delmengder av oppføringer på tvers av alle leveransepakker. Enhver kombinasjon av filtre og sorteringspreferanser — etter status, lokasjon og mer — kan lagres som en navngitt trakt og gjenbrukes når som helst.",
+        "prerequisites": [
+          "Fildistribusjonsmodul kjøpt.",
+          "Eksisterende oppføringer."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Fildistribusjon</strong> i venstre sidemeny.",
+          "Klikk <strong>Traktinnstillinger</strong>.",
+          "Filtrer oppføringer etter status, lokasjon, tagger eller ansvarlig gruppe.",
+          "Sorter oppføringer etter oppførings-ID, oppføringstype, revisjonsdato osv.",
+          "Klikk <strong>Traktinnstillinger</strong>.",
+          "Klikk <strong>Ny trakt fra gjeldende oppsett</strong>.",
+          "Angi nytt trakt-navn.",
+          "Klikk <strong>Lagre</strong> i dialogen."
+        ],
+        "tips": [
+          "Hvis <strong>Traktinnstillinger</strong> ikke er synlige, klikk på de tre vertikale linjene ved siden av <strong>Søk</strong>-feltet for å åpne dem.",
+          "For å holde <strong>Traktinnstillinger</strong> permanent synlige, huk av boksen ved siden av <strong>Vis traktdetaljer</strong> når traktinnstillingene er åpne."
+        ],
+        "videoCaption": "Bruke trakter"
+      },
+      "download": {
+        "title": "Last ned revisjoner",
+        "description": "Hver oppføring i Fildistribusjon har en fullstendig revisjonshistorikk, slik at mottakere kan hente hvilken som helst versjon av et levert dokument når som helst.",
+        "prerequisites": [
+          "Fildistribusjonsmodul kjøpt.",
+          "Publiserte oppføringer."
+        ],
+        "instructionGroups": [
+          {
+            "label": "Last ned alle revisjoner",
+            "steps": [
+              "Naviger til ønsket prosjekt.",
+              "Velg <strong>Fildistribusjon</strong> i venstre sidemeny.",
+              "Åpne oppføringsdetaljene ved å klikke på en oppføring.",
+              "Klikk på menyikonet med tre prikker øverst til høyre for å åpne en nedtrekksmeny.",
+              "Klikk på alternativet <strong>Last ned alle revisjoner</strong>."
+            ]
+          },
+          {
+            "label": "Last ned siste revisjon",
+            "steps": [
+              "Naviger til ønsket prosjekt.",
+              "Velg <strong>Fildistribusjon</strong> i venstre sidemeny.",
+              "Åpne oppføringsdetaljene ved å klikke på en oppføring.",
+              "Klikk på <strong>Publisert</strong>-filteret i filterlinjen over tabellen.",
+              "Klikk på oppførings-ID-en eller nedlastingsikonet ved siden av for å laste ned oppføringens siste revisjon."
+            ]
+          }
+        ],
+        "tips": [
+          "Den siste revisjonen kan kun lastes ned for oppføringer som har fullført QA-stegene og blitt publisert.",
+          "Klikk på alternativet <strong>Åpne i Leveranseplan</strong> i menyen med tre prikker hvis du må kontrollere oppføringen før du laster ned revisjoner."
+        ],
+        "videoCaption": "Laste ned revisjoner"
+      },
+      "requestNewRevision": {
+        "title": "Be om ny revisjon",
+        "description": "Be om ny revisjon lar brukere formelt varsle produsenten om at et allerede levert dokument må oppdateres. Når forespørselen er sendt, blir produsenten varslet, og oppføringen settes på vent til en revidert versjon lastes opp.",
+        "prerequisites": [
+          "Fildistribusjonsmodul kjøpt.",
+          "Publiserte oppføringer."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Fildistribusjon</strong> i venstre sidemeny.",
+          "Åpne oppføringsdetaljene ved å klikke på en oppføring.",
+          "Klikk på menyikonet med tre prikker øverst til høyre for å åpne en nedtrekksmeny.",
+          "Klikk på alternativet <strong>Be om ny revisjon</strong>.",
+          "Legg til en kommentar eller vedlegg dokumentasjon som forklarer årsaken til forespørselen om ny revisjon.",
+          "Marker oppføringen som foreldet om nødvendig.",
+          "Klikk <strong>Send forespørsel</strong>."
+        ],
+        "tips": [
+          "Når en oppføring markeres som foreldet, vil den ikke bli publisert som et gyldig dokument ved godkjenning — i stedet lukkes den og vises som foreldet i Fildistribusjon.",
+          "Organisasjonen som oppretter og leverer oppføringer kalles produsent, mens organisasjonen som mottar og godkjenner dem kalles mottaker."
+        ],
+        "videoCaption": "Be om nye revisjoner"
+      }
+    },
+    "guidesSupport": {
+      "beginner": {
+        "title": "Nybegynnerguider",
+        "description": "Nybegynnerguidene introduserer sentrale funksjoner og forklarer hvordan man bruker grunnleggende funksjonalitet i Q360. De hjelper brukere med å bli kjent med plattformens kjerneområder.",
+        "prerequisites": [
+          "Brukeren må være registrert og logget inn i systemet."
+        ],
+        "instructionGroups": [
+          {
+            "label": "Min konto",
+            "steps": [
+              "Klikk på spørsmålstegnikonet øverst til høyre.",
+              "Hold musepekeren over <strong>Beginner guides</strong>-elementet i nedtrekksmenyen for å vise tilgjengelige nybegynnerguider.",
+              "Klikk på <strong>My Account</strong>.",
+              "En blå informasjonsboks vil vises med en kort forklaring. Les den nøye.",
+              "Den blå boksen vil vise hvor avataren din er plassert øverst til høyre. Klikk på avataren din.",
+              "Velg <strong>My Profile</strong> fra nedtrekksmenyen for å åpne profilen din."
+            ]
+          },
+          {
+            "label": "Prosjekter",
+            "steps": [
+              "Klikk på spørsmålstegnikonet øverst til høyre.",
+              "Hold musepekeren over <strong>Beginner guides</strong>-elementet i nedtrekksmenyen for å vise tilgjengelige nybegynnerguider.",
+              "Klikk på <strong>Projects</strong>.",
+              "En blå informasjonsboks vil vises med en kort forklaring. Les den nøye.",
+              "Den blå boksen vil peke på nedtrekksikonet i den øverste menylinjen. Klikk på nedtrekksikonet.",
+              "Se listen over prosjekter."
+            ]
+          },
+          {
+            "label": "Samarbeid",
+            "steps": [
+              "Klikk på spørsmålstegnikonet øverst til høyre.",
+              "Hold musepekeren over <strong>Beginner guides</strong>-elementet i nedtrekksmenyen for å vise tilgjengelige nybegynnerguider.",
+              "Klikk på <strong>Collaboration</strong>.",
+              "Etter at <strong>Collaboration</strong> er valgt, åpnes det sist brukte prosjektet. En blå informasjonsboks vil vises og peke på menyelementet <strong>Team</strong> i venstre sidepanel.",
+              "Klikk på menyelementet <strong>Team</strong> (representert av et ikon med to personer) for å få tilgang til prosjektteamet.",
+              "Se eller rediger prosjektteamet."
+            ]
+          }
+        ],
+        "tips": [
+          "Klikk på <strong>X</strong>-ikonet i informasjonsboksen for å lukke nybegynnerguiden.",
+          "Kun brukere som er tildelt rollen Project Admin kan redigere prosjektteamet."
+        ],
+        "videoCaption": "Bruke nybegynnerguider"
+      },
+      "feedback": {
+        "title": "Gi tilbakemelding",
+        "description": "Brukere kan gi tilbakemelding ved å dele forslag, rapportere problemer eller foreslå forbedringer for å forbedre den totale opplevelsen i Q360.",
+        "prerequisites": [
+          "Brukeren må være registrert og logget inn i systemet."
+        ],
+        "steps": [
+          "Klikk på spørsmålstegnikonet øverst til høyre.",
+          "Klikk på <strong>Give feedback</strong> i nedtrekksmenyen.",
+          "Skriv inn meldingen din.",
+          "Legg ved en fil om nødvendig for å gi ytterligere kontekst.",
+          "Klikk på <strong>Send</strong> for å sende inn tilbakemeldingen.",
+          "Våre systemadministratorer vil gjennomgå tilbakemeldingen din. Du vil motta en e-post når den er behandlet."
+        ],
+        "tips": [
+          "Gi så mye detaljert informasjon som mulig for å hjelpe oss med å forstå tilbakemeldingen din.",
+          "Klikk på <strong>X</strong>-ikonet til høyre for et vedlegg for å fjerne det."
+        ],
+        "videoCaption": "Gi tilbakemelding"
+      },
+      "support": {
+        "title": "Be om støtte",
+        "description": "Brukere kan be om støtte ved tekniske problemer, systemfeil eller andre plattformrelaterte utfordringer.",
+        "prerequisites": [
+          "Brukeren må være registrert og logget inn i systemet."
+        ],
+        "steps": [
+          "Klikk på spørsmålstegnikonet øverst til høyre.",
+          "Klikk på <strong>Request support</strong> i nedtrekksmenyen.",
+          "Skriv inn emnet for støttehenvendelsen.",
+          "Skriv inn en detaljert beskrivelse av problemet.",
+          "Legg ved en fil om nødvendig for å gi ytterligere kontekst.",
+          "Klikk på <strong>Send</strong> for å sende inn støttehenvendelsen.",
+          "Våre systemadministratorer vil gjennomgå støttehenvendelsen din. Du vil motta en e-post når den er behandlet."
+        ],
+        "tips": [
+          "Gi så mye detaljert informasjon som mulig for å hjelpe oss med å forstå støttehenvendelsen din.",
+          "Inkluder skjermbilder eller relevante vedlegg når du rapporterer tekniske problemer.",
+          "Klikk på <strong>X</strong>-ikonet til høyre for et vedlegg for å fjerne det."
+        ],
+        "videoCaption": "Be om støtte"
+      },
+      "policies": {
+        "title": "Retningslinjer",
+        "description": "Seksjonen Retningslinjer inneholder de offisielle Q360-dokumentene, inkludert informasjon om bruk av informasjonskapsler, personvern og tjenestevilkår. Disse dokumentene definerer det juridiske og operative rammeverket for bruk av plattformen.",
+        "prerequisites": [
+          "Brukeren må være registrert og logget inn i systemet."
+        ],
+        "steps": [
+          "Klikk på spørsmålstegnikonet øverst til høyre.",
+          "Klikk på en av de tilgjengelige retningslinjene (<strong>Use of Cookies</strong>, <strong>Privacy Policy</strong>, <strong>Service Level Agreement</strong>) i seksjonen <strong>Policies</strong> i nedtrekksmenyen.",
+          "Den valgte retningslinjen åpnes i en ny nettleserfane. Les den nøye."
+        ],
+        "tips": [
+          "Alle offisielle retningslinjer er offentlig tilgjengelige på <a href=\"https://quantum360.no\" target=\"_blank\">quantum360.no</a>."
+        ],
+        "videoCaption": "Tilgang til Q360-retningslinjer"
+      }
+    },
+    "prjSettings": {
+      "overview": {
+        "title": "Oversikt",
+        "description": "Oversikt-seksjonen gir en overordnet oppsummering av prosjektet og lar brukere vise og oppdatere viktig prosjektinformasjon.",
+        "prerequisites": [
+          "Eksisterende prosjekt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Oversikt</strong> i venstre sidemeny.",
+          "Vis og rediger prosjektets viktigste informasjon."
+        ],
+        "tips": [
+          "Endre prosjektstatus.",
+          "Legg til eller fjern forsidebilde.",
+          "Naviger til <strong>Generelle innstillinger</strong>, <strong>Team</strong> og <strong>Innstillinger for prosjektportefølje</strong>.",
+          "Vis oppgaver som er tildelt dine grupper i prosjektet.",
+          "Legg til eller fjern startdato og estimert sluttdato.",
+          "Legg til prosjektbeskrivelse, kontraktsverdi, valuta og lokasjon."
+        ],
+        "videoCaption": "Konfigurere generelle innstillinger"
+      },
+      "general": {
+        "title": "Generelle innstillinger",
+        "description": "Konfigurasjon av prosjektets grunnleggende detaljer.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Settings</strong> i venstre sidemeny.",
+          "Velg <strong>General information</strong>.",
+          "Endre prosjektets gjeldende status.",
+          "Klikk på prosjektnavnet for å gi det nytt navn.",
+          "Hvis den mangler, legg til prosjektets estimerte leveringsdato."
+        ],
+        "tips": [
+          "Et prosjekt kan ha 3 statuser: On Hold, In Progress og Closed."
+        ],
+        "videoCaption": "Konfigurere generelle innstillinger"
+      },
+      "pricing": {
+        "title": "Prisplan",
+        "description": "Administrasjon av abonnement- og faktureringsnivåer som bestemmer hvilke funksjoner som er tilgjengelige i et prosjekt.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Settings</strong> i venstre sidemeny.",
+          "Velg <strong>Pricing Plan</strong>.",
+          "Velg en prisplan.",
+          "Fyll ut de obligatoriske feltene.",
+          "Klikk <strong>Continue -></strong>.",
+          "Bekreft de oppgitte detaljene.",
+          "Klikk <strong>Continue -></strong>.",
+          "Nyt prisplanen og de nye funksjonene."
+        ],
+        "tips": [
+          "Klikk <strong>Contact us</strong> nederst til høyre for en tilpasset plan som er skreddersydd for behovene dine.",
+          "Det finnes 3 planer: Free, Starter og Professional.",
+          {
+            "text": "Free-planen inkluderer:",
+            "notes": [
+              "15 medlemmer per prosjekt",
+              "Oppgaveadministrasjon",
+              "Integrasjoner"
+            ]
+          },
+          {
+            "text": "Starter-planen inkluderer:",
+            "notes": [
+              "Funksjoner i Free-planen",
+              "Samarbeid mellom organisasjoner",
+              "Beslutninger",
+              "Avhengigheter"
+            ]
+          },
+          {
+            "text": "Professional-planen inkluderer:",
+            "notes": [
+              "Funksjoner i Free- og Starter-planen",
+              "Visuell planlegging (VDC)",
+              "Bildeanalyse"
+            ]
+          }
+        ],
+        "videoCaption": "Administrere prising"
+      },
+      "tags": {
+        "title": "Tagger og objekter",
+        "description": "Organisering av arbeidselementer ved hjelp av egendefinerte tagger og detekterte objekter for kategorisering og utvalg.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Settings</strong> i venstre sidemeny.",
+          "Velg <strong>Tags and Objects</strong>.",
+          "Klikk <strong>+ New user tag</strong>.",
+          "Skriv inn tagnavn.",
+          "Klikk <strong>Create</strong>."
+        ],
+        "tips": [
+          "Bruk konsekvente navnekonvensjoner.",
+          "Sorter tagger og objekter etter navn og bruk.",
+          "Se tagger, objekter og lokasjoner som er detektert av Bildeanalyse når bilder lastes opp."
+        ],
+        "videoCaption": "Administrere tagger"
+      },
+      "importance": {
+        "title": "Viktighet",
+        "description": "Konfigurasjon av viktighetsnivåer som definerer prioritet for oppgaver og beslutninger.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Settings</strong> i venstre sidemeny.",
+          "Velg <strong>Importance</strong>.",
+          "Velg viktighetsverdien som skal brukes som standard ved opprettelse av oppgaver og beslutninger.",
+          "Velg eller fjern viktighetsverdiene som skal være tilgjengelige ved opprettelse av oppgaver og beslutninger."
+        ],
+        "tips": [
+          "Standard viktighetsverdi kan ikke fjernes.",
+          "Du må bruke minst 2 viktighetsverdier.",
+          "Klikk på viktighetsetiketten for å gi den nytt navn.",
+          "Klikk <strong>Reset default</strong> øverst til høyre for å gjenopprette standardinnstillingene for viktighet."
+        ],
+        "videoCaption": "Angi viktighet"
+      },
+      "tasksSettings": {
+        "title": "Oppgaveinnstillinger",
+        "description": "Konfigurasjon av regler for opprettelse og godkjenning av oppgaver.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Settings</strong> i venstre sidemeny.",
+          "Velg <strong>Task Settings</strong>.",
+          "Velg om startdato, forfallsdato, timeestimat og tagger skal være valgfrie eller obligatoriske ved opprettelse og redigering av en oppgave.",
+          "Velg åpen arbeidsflyt (alle teammedlemmer kan redigere oppgaver) eller begrenset arbeidsflyt (kun oppgaveeier eller organisasjonsadministrator kan godkjenne, kansellere eller gjenåpne oppgaver)."
+        ],
+        "tips": [
+          "Standardiser oppgaveformater.",
+          "Sørg for samsvar med teamets prosesser."
+        ],
+        "videoCaption": "Konfigurere oppgaver"
+      },
+      "decisionsSettings": {
+        "title": "Beslutningsinnstillinger",
+        "description": "Konfigurasjon av regler for opprettelse og godkjenning av beslutninger.",
+        "prerequisites": [
+          "Prosjektadministrator."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Settings</strong> i venstre sidemeny.",
+          "Velg <strong>Decision Settings</strong>.",
+          "Velg om tagger og berørte grupper skal være obligatoriske ved opprettelse og redigering av en beslutning.",
+          "Velg om beslutninger krever godkjenning fra eier eller automatisk godkjennes etter et angitt antall dager."
+        ],
+        "tips": [
+          "Standardiser beslutningsformater.",
+          "Sørg for samsvar med teamets prosesser."
+        ],
+        "videoCaption": "Konfigurere beslutninger"
+      }
+    },
+    "tasks": {
+      "ownership": {
+        "title": "Oppgaveeier",
+        "description": "Tildeling av eierskap for oppgaver. Oppgaveeieren er ansvarlig for å følge opp oppgaven og sikre at den fullføres på en tilfredsstillende måte.",
+        "prerequisites": [
+          "Brukeren må være medlem av et prosjekt for å endre oppgaveeier.",
+          "Eksisterende oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidemeny.",
+          "Åpne oppgavedetaljene ved å klikke på en oppgave.",
+          "Klikk på gjeldende eier (rett under <strong>Owned by</strong>-etiketten) for å åpne nedtrekksmenyen.",
+          "Velg en eier."
+        ],
+        "tips": [
+          "Hver oppgave må ha én eier."
+        ],
+        "videoCaption": "Endre oppgaveeier"
+      },
+      "assignee": {
+        "title": "Oppgaveansvarlig",
+        "description": "Tildeling av ansvarlig for oppgaver. Den ansvarlige for oppgaven er ansvarlig for å fullføre oppgaven og utføre det nødvendige arbeidet.",
+        "prerequisites": [
+          "Brukeren må være medlem av et prosjekt for å endre oppgaveansvarlig.",
+          "Eksisterende oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidepanel.",
+          "Åpne oppgavedetaljene ved å klikke på en oppgave.",
+          "Klikk på gjeldende ansvarlig, eller klikk på <strong>Select a position or a group</strong> dersom feltet er tomt (rett under <strong>Assigned to</strong>-etiketten) for å åpne nedtrekksmenyen.",
+          "Velg en ansvarlig."
+        ],
+        "tips": [
+          "Feltet for ansvarlig kan stå tomt.",
+          "En oppgave kan også tildeles en gruppe."
+        ],
+        "videoCaption": "Endre oppgaveansvarlig"
+      },
+      "workflow": {
+        "title": "Oppgaveflyt",
+        "description": "Gjør det mulig å flytte oppgaver mellom statuser og følge fremdriften frem til fullføring.",
+        "prerequisites": [
+          "Eksisterende oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidemeny.",
+          {
+            "text": "Bruk en av følgende metoder for å endre status:",
+            "notes": [
+              "Dra og slipp en oppgave til en annen kolonne på tavlen (hvis du er i Kanban-visning).",
+              "Åpne oppgavedetaljer og klikk på et statusikon."
+            ]
+          }
+        ],
+        "tips": [
+          "Hold statusene oppdatert.",
+          "Det finnes 6 statuser: On Hold, To Do, In Progress, Verification, Approved og Closed.",
+          "For å kansellere en oppgave, åpne oppgavedetaljene og velg <strong>Cancel</strong> fra menyikonet med tre prikker øverst til høyre."
+        ],
+        "videoCaption": "Administrere oppgaveflyt"
+      },
+      "create": {
+        "title": "Opprett oppgave",
+        "description": "Gir funksjonalitet for å opprette og definere oppgaver i et prosjekt.",
+        "prerequisites": [
+          "Eksisterende prosjekt.",
+          "Brukeren må være medlem av et prosjekt for å opprette oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidemeny.",
+          "Klikk <strong>NEW TASK</strong> øverst til høyre.",
+          "Skriv inn en kort og presis <strong>Title</strong> for oppgaven.",
+          "Legg til en beskrivelse, ansvarlig eller forfallsdato ved behov.",
+          "Klikk <strong>SAVE</strong>."
+        ],
+        "tips": [
+          "Bruk beskrivelsesfeltet til å legge til sjekklister eller lenker til relevante dokumenter."
+        ],
+        "videoCaption": "Opprette oppgave"
+      },
+      "dependencies": {
+        "title": "Avhengigheter",
+        "description": "Administrasjon av oppgaveavhengigheter for å definere strukturerte relasjoner og rekkefølge mellom arbeidselementer. En oppgave kan tildeles foreldre- eller barneavhengigheter for å gjenspeile hierarkiske og utførelsesrelasjoner.",
+        "prerequisites": [
+          "Eksisterende elementer.",
+          "Starter- eller Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidemeny.",
+          "Åpne oppgavedetaljer ved å klikke på en oppgave.",
+          "Bla ned til <strong>Dependencies</strong>-seksjonen.",
+          "Velg om du vil legge til en foreldre- eller barneavhengighet.",
+          "Klikk <strong>Add +</strong> til høyre for avhengighetstypen.",
+          "Søk etter arbeidselementet.",
+          "Klikk på arbeidselementet for å legge det til som en avhengighet til oppgaven."
+        ],
+        "tips": [
+          "Knytt relaterte elementer sammen ved hjelp av foreldre- og barneavhengigheter for å gjenspeile utførelsesrekkefølgen.",
+          "Du kan legge til alle typer arbeidselementer (oppgaver, beslutninger, dokumenter) som avhengigheter til en oppgave.",
+          "Klikk på <strong>X</strong>-ikonet på elementet for å fjerne det som en avhengighet."
+        ],
+        "videoCaption": "Administrere avhengigheter"
+      },
+      "funnels": {
+        "title": "Trakter",
+        "description": "Opprettelse og administrasjon av oppgavefiltre og sorteringsinnstillinger for enklere tilgang til spesifikke oppgaver.",
+        "prerequisites": [
+          "Eksisterende oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidemeny.",
+          "Klikk <strong>Funnel Settings</strong>.",
+          "Filtrer oppgaver etter status, eier, ansvarlig eller tagger.",
+          "Sorter oppgaver etter tittel, viktighet, prosjektkode, forfallsdato osv.",
+          "Klikk <strong>New funnel from current setup</strong>.",
+          "Skriv inn nytt trakt-navn.",
+          "Velg Kanban eller Liste for å lagre trakten i den tilsvarende visningen.",
+          "Klikk <strong>Save</strong> i dialogen."
+        ],
+        "tips": [
+          "Hvis du ikke ser alternativet <strong>Funnel settings</strong>, klikker du på de tre vertikale linjene ved siden av <strong>NEW TASK</strong> for å åpne dem.",
+          "Du kan bruke trakter til å filtrere og sortere alle arbeidselementene dine i My Work."
+        ],
+        "videoCaption": "Bruke trakter"
+      },
+      "detailsHeader": {
+        "title": "Oppgavedetaljer – toppseksjon",
+        "description": "Toppseksjonen for oppgavedetaljer inneholder sentrale handlinger og hurtigtilgangsalternativer knyttet til den valgte oppgaven. Den gjør det mulig for brukere å administrere, dele og endre oppgaven direkte fra toppseksjonen.",
+        "prerequisites": [
+          "Eksisterende oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidepanel.",
+          "Åpne oppgavedetaljene ved å klikke på en oppgave.",
+          "Bruk ikonene i toppseksjonen for oppgavedetaljer for å utføre tilgjengelige oppgavehandlinger."
+        ],
+        "tips": [
+          "Toppseksjonen inneholder alternativer som å kopiere oppgavelenken, bytte mellom full og kompakt visning, legge til følgere, administrere vedlegg, duplisere oppgaven og lukke oppgavedetaljene.",
+          "Bruk av statusikoner i toppseksjonen er beskrevet i seksjonen <strong>Task Workflow</strong>.",
+          "Redigering av oppgavedetaljer er beskrevet i seksjonen <strong>Edit Task Details</strong>."
+        ],
+        "videoCaption": "Bruke toppseksjonen for oppgavedetaljer"
+      },
+      "edit": {
+        "title": "Rediger oppgavedetaljer",
+        "description": "Seksjonen Rediger oppgavedetaljer gjør det mulig for brukere å oppdatere oppgaveinformasjon og justere sentrale detaljer etter hvert som oppgaven utvikler seg.",
+        "prerequisites": [
+          "Eksisterende oppgaver."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Tasks</strong> i venstre sidepanel.",
+          "Åpne oppgavedetaljene ved å klikke på en oppgave.",
+          "Rediger oppgavedetaljene."
+        ],
+        "tips": [
+          "Rediger oppgavens tittel eller beskrivelse.",
+          "Legg til eller fjern start- og forfallsdatoer.",
+          "Endre oppgavens viktighet eller etiketter.",
+          "Klikk på <strong>Change log</strong> for å gjennomgå alle endringer som er gjort i oppgaven siden opprettelsen.",
+          "Bruk kommentarfeltet for å informere andre prosjektmedlemmer om oppdateringer eller tilleggsinformasjon.",
+          "Redigering av <strong>Task Owner</strong>, <strong>Task Assignee</strong> og <strong>Dependencies</strong> er beskrevet i de tilhørende seksjonene.",
+          "Handlinger i oppgavens toppseksjon er beskrevet i seksjonen <strong>Task Details Header</strong>."
+        ],
+        "videoCaption": "Redigere oppgavedetaljer"
+      }
+    },
+    "decisions": {
+      "ownership": {
+        "title": "Beslutningsredaktør",
+        "description": "Tildeling av redigeringsansvar for beslutninger. Beslutningsredaktøren er ansvarlig for å vedlikeholde beslutningen og sikre at den ferdigstilles.",
+        "prerequisites": [
+          "Brukeren må være medlem av et prosjekt for å endre beslutningsredaktør.",
+          "Starter- eller Professional-prisplan.",
+          "Eksisterende beslutninger."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidemeny.",
+          "Åpne beslutningsdetaljer ved å klikke på en beslutning.",
+          "Klikk på gjeldende redaktør (rett under <strong>Editor</strong>-etiketten) for å åpne nedtrekksmenyen.",
+          "Velg en redaktør."
+        ],
+        "tips": [
+          "Hver beslutning må ha én redaktør."
+        ],
+        "videoCaption": "Endre beslutningsredaktør"
+      },
+      "maker": {
+        "title": "Beslutningstaker",
+        "description": "Tildeling av beslutningstaker for beslutninger. Beslutningstakeren er ansvarlig for å ta den endelige beslutningen.",
+        "prerequisites": [
+          "Brukeren må være medlem av et prosjekt for å endre beslutningstakeren.",
+          "Starter- eller Professional-abonnement.",
+          "Eksisterende beslutninger."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidepanel.",
+          "Åpne beslutningsdetaljene ved å klikke på en beslutning.",
+          "Klikk på gjeldende beslutningstaker (rett under <strong>Decision Maker</strong>-etiketten) for å åpne nedtrekksmenyen.",
+          "Velg en beslutningstaker."
+        ],
+        "tips": [
+          "Hver beslutning må ha én tildelt beslutningstaker."
+        ],
+        "videoCaption": "Endre beslutningstaker"
+      },
+      "workflow": {
+        "title": "Beslutningsflyt",
+        "description": "Gjør det mulig å flytte beslutninger mellom statuser og følge fremdriften frem til fullføring.",
+        "prerequisites": [
+          "Starter- eller Professional-prisplan.",
+          "Eksisterende beslutninger."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidemeny.",
+          {
+            "text": "Bruk en av følgende metoder for å endre status:",
+            "notes": [
+              "Dra og slipp en beslutning til en annen kolonne på tavlen (hvis du er i Kanban-visning).",
+              "Åpne beslutningsdetaljer og klikk på et statusikon."
+            ]
+          }
+        ],
+        "tips": [
+          "Hold statusene oppdatert.",
+          "Det finnes 5 statuser: On Hold, In Progress, Verification, Approved og Cancelled."
+        ],
+        "videoCaption": "Administrere beslutningsflyt"
+      },
+      "create": {
+        "title": "Opprett beslutning",
+        "description": "Opprettelse og dokumentasjon av beslutninger for formelt å registrere prosjektrelaterte valg.",
+        "prerequisites": [
+          "Eksisterende prosjekt.",
+          "Brukeren må være medlem av et prosjekt for å opprette beslutninger.",
+          "Starter- eller Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidemeny.",
+          "Klikk <strong>NEW DECISION</strong> øverst til høyre.",
+          "Skriv inn en kort og presis <strong>Title</strong> for beslutningen.",
+          "Velg en <strong>Decision Maker</strong>.",
+          "Beskriv konteksten, vurderte alternativer og den endelige beslutningen i beskrivelsen.",
+          "Klikk <strong>SAVE</strong>."
+        ],
+        "tips": [
+          "Knytt beslutningen til relevante oppgaver ved å bruke <strong>Dependencies</strong>-seksjonen."
+        ],
+        "videoCaption": "Opprette beslutning"
+      },
+      "dependencies": {
+        "title": "Avhengigheter",
+        "description": "Administrasjon av beslutningsavhengigheter for å definere strukturerte relasjoner og rekkefølge mellom arbeidselementer. En beslutning kan tildeles foreldre- eller barneavhengigheter for å gjenspeile hierarkiske og utførelsesrelasjoner.",
+        "prerequisites": [
+          "Eksisterende elementer.",
+          "Starter- eller Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidemeny.",
+          "Åpne beslutningsdetaljer ved å klikke på en beslutning.",
+          "Bla ned til <strong>Dependencies</strong>-seksjonen.",
+          "Velg om du vil legge til en foreldre- eller barneavhengighet.",
+          "Klikk <strong>Add +</strong> til høyre for avhengighetstypen.",
+          "Søk etter arbeidselementet.",
+          "Klikk på arbeidselementet for å legge det til som en avhengighet til beslutningen."
+        ],
+        "tips": [
+          "Knytt relaterte elementer sammen ved hjelp av foreldre- og barneavhengigheter for å gjenspeile utførelsesrekkefølgen.",
+          "Du kan legge til alle typer arbeidselementer (oppgaver, beslutninger, dokumenter) som avhengigheter til en beslutning.",
+          "Klikk på <strong>X</strong>-ikonet på elementet for å fjerne det som en avhengighet."
+        ],
+        "videoCaption": "Administrere avhengigheter"
+      },
+      "funnels": {
+        "title": "Trakter",
+        "description": "Opprettelse og administrasjon av beslutningsfiltre og sorteringsinnstillinger for enklere tilgang til spesifikke beslutninger.",
+        "prerequisites": [
+          "Eksisterende beslutninger.",
+          "Starter- eller Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidemeny.",
+          "Klikk <strong>Funnel Settings</strong>.",
+          "Filtrer beslutninger etter status, beslutningstaker, berørte grupper eller tagger.",
+          "Sorter beslutninger etter tittel, viktighet, beslutningsdato osv.",
+          "Klikk <strong>New funnel from current setup</strong>.",
+          "Skriv inn nytt trakt-navn.",
+          "Velg Kanban eller Liste for å lagre trakten i den tilsvarende visningen.",
+          "Klikk <strong>Save</strong> i dialogen."
+        ],
+        "tips": [
+          "Hvis du ikke ser alternativet <strong>Funnel settings</strong>, klikker du på de tre vertikale linjene ved siden av <strong>NEW DECISION</strong> for å åpne dem.",
+          "Du kan bruke trakter til å filtrere og sortere alle arbeidselementene dine i My Work."
+        ],
+        "videoCaption": "Bruke trakter"
+      },
+      "detailsHeader": {
+        "title": "Beslutningsdetaljer – toppseksjon",
+        "description": "Toppseksjonen for beslutningsdetaljer inneholder sentrale handlinger og hurtigtilgangsalternativer knyttet til den valgte beslutningen. Den gjør det mulig for brukere å administrere, dele og endre beslutningen direkte fra toppseksjonen.",
+        "prerequisites": [
+          "Starter- eller Professional-abonnement.",
+          "Eksisterende beslutninger."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidepanel.",
+          "Åpne beslutningsdetaljene ved å klikke på en beslutning.",
+          "Bruk ikonene i toppseksjonen for beslutningsdetaljer for å utføre tilgjengelige beslutningshandlinger."
+        ],
+        "tips": [
+          "Toppseksjonen inneholder alternativer som å kopiere beslutningslenken, bytte mellom full og kompakt visning, legge til følgere, administrere vedlegg og lukke beslutningsdetaljene.",
+          "Bruk av statusikoner i toppseksjonen er beskrevet i seksjonen <strong>Decision Workflow</strong>.",
+          "Redigering av beslutningsdetaljer er beskrevet i seksjonen <strong>Edit Decision Details</strong>."
+        ],
+        "videoCaption": "Bruke toppseksjonen for beslutningsdetaljer"
+      },
+      "edit": {
+        "title": "Rediger beslutningsdetaljer",
+        "description": "Seksjonen Rediger beslutningsdetaljer gjør det mulig for brukere å oppdatere beslutningsinformasjon og justere sentrale detaljer etter hvert som beslutningen utvikler seg.",
+        "prerequisites": [
+          "Starter- eller Professional-abonnement.",
+          "Eksisterende beslutninger."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Decisions</strong> i venstre sidepanel.",
+          "Åpne beslutningsdetaljene ved å klikke på en beslutning.",
+          "Rediger beslutningsdetaljene."
+        ],
+        "tips": [
+          "Rediger beslutningens tittel eller beskrivelse.",
+          "Rediger start- og beslutningsdatoene.",
+          "Endre beslutningens viktighet eller etiketter.",
+          "Klikk på <strong>Change log</strong> for å gjennomgå alle endringer som er gjort i beslutningen siden opprettelsen.",
+          "Bruk kommentarfeltet for å informere andre prosjektmedlemmer om oppdateringer eller tilleggsinformasjon.",
+          "Redigering av <strong>Decision Editor</strong>, <strong>Decision Maker</strong> og <strong>Dependencies</strong> er beskrevet i de tilhørende seksjonene.",
+          "Handlinger i beslutningens toppseksjon er beskrevet i seksjonen <strong>Decision Details Header</strong>."
+        ],
+        "videoCaption": "Redigere beslutningsdetaljer"
+      }
+    },
+    "ia": {
+      "upload": {
+        "title": "Last opp bilder",
+        "description": "Instruksjoner for opplasting av bilder til Q360.",
+        "prerequisites": [
+          "Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Image Analytics</strong> i venstre sidemeny.",
+          "Klikk <strong>Start by uploading images</strong> i midten, eller <strong>Upload images</strong> øverst til høyre.",
+          "Dra og slipp et bilde i rektangelet, eller klikk <strong>Browse</strong> for å velge et.",
+          "Når opplastingen starter, vises et statuspanel som viser fremdriften for opplasting og analyse av bildet.",
+          "Når behandlingen er fullført, klikk <strong>View images</strong> i statuspanelet for å åpne det opplastede bildet."
+        ],
+        "tips": [
+          "Klikk <strong>Download report</strong> i statuspanelet for å laste ned en CSV-rapport med analyseresultatene for opplastede bilder.",
+          "Støttede formater: PNG, JPG, JPEG, HEIC, HEIF, GIF, BMP, WEBP, ICO, TIFF, MPO.",
+          "Maksimal filstørrelse: 20 MB."
+        ],
+        "videoCaption": "Laste opp bilder"
+      },
+      "funnels": {
+        "title": "Trakter",
+        "description": "Administrasjon av bildefiltre og sorteringsinnstillinger for enklere utvalg og tilgang til spesifikke bilder i et prosjekt.",
+        "prerequisites": [
+          "Professional-prisplan.",
+          "Brukeren må ha lastet opp minst 1 bilde."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Image Analytics</strong> i venstre sidemeny.",
+          "Filtrer bilder etter objekt, tagg, lokasjon eller dato.",
+          "Klikk <strong>X images selected in total</strong> under kartet for å se filtrerte bilder."
+        ],
+        "tips": [
+          "Beveg deg rundt på kartet for å finne bilder med lokasjonsdata.",
+          "Sorter objekter og tagger etter navn og antall forekomster.",
+          "Objekter, tagger og datoer som er ekskludert av den valgte trakten, vises med redusert visuell fremheving."
+        ],
+        "videoCaption": "Administrere trakter"
+      },
+      "bulk": {
+        "title": "Masseredigering",
+        "description": "Gjør det mulig å redigere flere bilder samtidig.",
+        "prerequisites": [
+          "Professional-prisplan.",
+          "Brukeren må ha lastet opp minst 2 bilder.",
+          "Brukeren må velge minst 2 bilder."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Image Analytics</strong> i venstre sidemeny.",
+          "Klikk <strong>X images selected in total</strong> under kartet.",
+          "Velg bilder for masseredigering.",
+          "Klikk <strong>Bulk edit</strong> øverst til høyre.",
+          "Rediger tittel, beskrivelse, dato tatt, lokasjon eller tagger.",
+          "Klikk <strong>Save</strong>."
+        ],
+        "tips": [
+          "Vær forsiktig med massehandlinger.",
+          "Filtrer bilder etter objekt, tagg, dato eller lokasjon før redigering."
+        ],
+        "videoCaption": "Masseredigering"
+      },
+      "editing": {
+        "title": "Bilderedigering",
+        "description": "Gir verktøy for å justere enkeltbilder.",
+        "prerequisites": [
+          "Professional-prisplan.",
+          "Brukeren må ha lastet opp minst 1 bilde."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Image Analytics</strong> i venstre sidemeny.",
+          "Filtrer bilder ved å bruke trakter.",
+          "Klikk <strong>X images selected in total</strong> under kartet.",
+          "Klikk på bildet du vil redigere.",
+          "Bruk verktøyene til å redigere."
+        ],
+        "tips": [
+          "Klikk på menyikonet med tre prikker øverst til høyre for å se alternativene <strong>Revert Changes</strong> og <strong>Delete</strong>.",
+          "Klikk på <strong>Download</strong>-ikonet øverst til høyre for å laste ned bildet."
+        ],
+        "videoCaption": "Redigere bilder"
+      }
+    },
+    "prjDashboard": {
+      "customize": {
+        "title": "Tilpass dashboard",
+        "description": "Funksjonen Tilpass prosjektoversikt gjør det mulig for brukere å endre oppsettet på prosjektoversikten ved å legge til, fjerne og omorganisere widgets. Den fokuserer på hvordan informasjon vises i dashboardet.",
+        "prerequisites": [
+          "Eksisterende prosjekt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Dashboard</strong> i venstre sidepanel.",
+          "Klikk på <strong>Customize Project Dashboard</strong>-ikonet øverst til høyre for å aktivere tilpasningsmodus.",
+          "Klikk på <strong>Add Widgets</strong>-knappen for å åpne nedtrekksmenyen.",
+          "Dra og slipp en widget fra nedtrekksmenyen til prosjektoversikten.",
+          "Dra og slipp en widget for å endre plasseringen på dashboardet.",
+          "Klikk på <strong>X</strong>-ikonet øverst til høyre på en widget for å fjerne den fra dashboardet.",
+          "Klikk på <strong>Save Changes</strong>-knappen øverst til høyre for å lagre endringene og avslutte tilpasningsmodus.",
+          "Klikk på <strong>Cancel</strong>-knappen for å forkaste alle ulagrede endringer og gjenopprette dashboardet til sist lagrede tilstand.",
+          "Klikk på <strong>Reset Default Layout</strong>-knappen for å gjenopprette dashboardets standardoppsett."
+        ],
+        "tips": [
+          "Tilgjengelige widgets inkluderer <strong>Project Portfolio Ownership</strong>, <strong>Group Overview</strong>, <strong>Recently Active</strong>, <strong>Collaboration</strong> og <strong>Remaining Workload</strong>.",
+          "Endringer i dashboardoppsettet blir ikke brukt før <strong>Save Changes</strong>-knappen klikkes."
+        ],
+        "videoCaption": "Tilpasse prosjektoversikt"
+      },
+      "configure": {
+        "title": "Konfigurer og bruk widgets",
+        "description": "Widgets i prosjektoversikten gjør det mulig for brukere å utforske og samhandle med prosjektdata direkte fra dashboardet. Hver widget viser spesifikke data, som prosjektportefølje-eierskap, samarbeid, nylig aktive medlemmer samt arbeidsbelastning og ansvarsfordeling. Widgets kan justeres for å vise ulike typer data basert på brukerens valg.",
+        "prerequisites": [
+          "Eksisterende prosjekt."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Project Dashboard</strong> i venstre sidepanel.",
+          "Finn <strong>Remaining Workload</strong>-widgeten på venstre side av prosjektoversikten. Den viser gjenværende arbeid for de neste seks månedene, inkludert forfalte elementer og elementer uten tildelt forfallsdato.",
+          "Klikk på <strong>All</strong>-etiketten i <strong>Remaining Workload</strong>-widgeten for å åpne nedtrekksmenyen.",
+          "Velg <strong>Tasks</strong>, <strong>Decisions</strong> eller <strong>Entries</strong> fra nedtrekksmenyen for å vise gjenværende arbeid for valgt type arbeidsoppgave.",
+          "Finn <strong>Group Overview</strong>-widgeten på høyre side av prosjektoversikten. Den viser arbeidsoppgaver som er tildelt den valgte gruppen og dens medlemmer.",
+          "Klikk på den valgte gruppen i <strong>Group Overview</strong>-widgeten for å åpne nedtrekksmenyen.",
+          "Velg en gruppe fra nedtrekksmenyen for å vise de tildelte arbeidsoppgavene.",
+          "Hvis det finnes arbeidsoppgaver tildelt en gruppe eller dens medlemmer, klikker du på tallet for å vise de eksakte tildelte oppgavene."
+        ],
+        "tips": [
+          "Tilgjengelige widgets inkluderer <strong>Project Portfolio Ownership</strong>, <strong>Group Overview</strong>, <strong>Recently Active</strong>, <strong>Collaboration</strong> og <strong>Remaining Workload</strong>.",
+          "Legge til og fjerne widgets er beskrevet i seksjonen <strong>Customize Dashboard</strong>.",
+          "For å få tilgang til <strong>Team</strong>-innstillinger via <strong>Recently Active</strong>- eller <strong>Collaboration</strong>-widgetene, klikker du på ikonet med to personer øverst til høyre.<br>Project Admin-rettigheter kreves for å få tilgang til innstillingene.",
+          "For å få tilgang til <strong>Project Portfolio Settings</strong> via <strong>Project Portfolio Ownership</strong>-widgeten, klikker du på blyantikonet øverst til høyre.<br>Organisasjonsadministrator- eller prosjektportefølje-administratorrettigheter kreves for å få tilgang til prosjektportefølje-innstillinger."
+        ],
+        "videoCaption": "Konfigurere og bruke widgets"
+      }
+    },
+    "visualPlanning": {
+      "navigation": {
+        "title": "Navigasjon",
+        "description": "Visuell planlegging gjør det mulig å se og navigere prosjekter på tvers av flere tidsperioder.",
+        "prerequisites": [
+          "Eksisterende elementer.",
+          "Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Visual Planning</strong> i venstre sidemeny.",
+          "Bla ned og opp på tavlen for å se arbeidselementer fra alle seksjoner.",
+          "Bruk pilene øverst til venstre for å navigere fremover og bakover i tid.",
+          "Klikk <strong>Week</strong>, <strong>Month</strong>, <strong>Quarter</strong> eller <strong>Year</strong> øverst i midten for å velge tidsperiode."
+        ],
+        "tips": [
+          "En rød prikk vises ved siden av gjeldende tidsperiode (quarter, month, week eller date)."
+        ],
+        "videoCaption": "Navigere i VP"
+      },
+      "settings": {
+        "title": "Innstillinger",
+        "description": "Konfigurasjon av visningsinnstillinger for visuell planlegging.",
+        "prerequisites": [
+          "Eksisterende elementer.",
+          "Professional-prisplan."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Visual Planning</strong> i venstre sidemeny.",
+          "Klikk på skyveikonet øverst til høyre for å åpne innstillinger.",
+          "Velg eller fjern hvilke typer arbeidselementer du vil se.",
+          "Velg hvor mange elementer du vil vise per gruppe.",
+          "Legg til eller fjern visningsdetaljer for arbeidselementene."
+        ],
+        "tips": [
+          "Klikk på <strong>X</strong>-ikonet ved siden av et innstillingsnavn for å fjerne valget."
+        ],
+        "videoCaption": "Konfigurere VP"
+      }
+    }
+  }
+}

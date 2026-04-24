@@ -1,23 +1,36 @@
 import { useParams, Link } from "react-router";
 import { Home, ChevronRight } from "lucide-react";
-import { articles, categories } from "@/app/data/articles";
+import { articles, categories, categoryI18nKeys } from "@/app/data/articles";
 import Quantum360Logo from "@/imports/Quantum360Logo-45-29";
 import { LoginToggleButton } from "./LoginToggleButton";
+import { useTranslation } from "react-i18next";
 
 export function CategoryPage() {
   const { category } = useParams();
-  
-  // Decode the category name from URL
+  const { t } = useTranslation();
+
   const decodedCategory = category ? decodeURIComponent(category) : "";
-  
-  // Check if category exists
+
+  const getTranslatedCategory = (cat: string) =>
+    categoryI18nKeys[cat] ? (t(categoryI18nKeys[cat]) as string) : cat;
+
+  const getTranslatedTitle = (article: (typeof articles)[0]) =>
+    article.i18nKey ? (t(`${article.i18nKey}.title`) as string) : article.title;
+
+  const getDescription = (article: (typeof articles)[0]): string => {
+    if (article.i18nKey) {
+      return t(`${article.i18nKey}.description`) as string;
+    }
+    return (article.content ?? '').replace(/<[^>]*>/g, ' ').substring(0, 150) + '...';
+  };
+
   if (!categories.includes(decodedCategory)) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
-          <h2>Category not found</h2>
+          <h2>{t('ui.articleNotFound')}</h2>
           <Link to="/" className="text-primary hover:underline">
-            Return to Help Hub
+            {t('ui.returnToHub')}
           </Link>
         </div>
       </div>
@@ -25,6 +38,7 @@ export function CategoryPage() {
   }
 
   const categoryArticles = articles.filter(a => a.category === decodedCategory);
+  const translatedCategory = getTranslatedCategory(decodedCategory);
 
   return (
     <div className="min-h-screen bg-background">
@@ -47,19 +61,19 @@ export function CategoryPage() {
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-muted-foreground mb-6">
           <Link to="/" className="hover:text-primary transition-colors">
-            Home
+            {t('ui.home')}
           </Link>
           <ChevronRight className="w-4 h-4" />
-          <span className="text-foreground">{decodedCategory}</span>
+          <span className="text-foreground">{translatedCategory}</span>
         </div>
 
         {/* Category Header */}
         <div className="mb-8">
           <h2 className="mb-4" style={{ fontSize: 'var(--text-h2)', lineHeight: '1.3' }}>
-            {decodedCategory}
+            {translatedCategory}
           </h2>
           <p className="text-muted-foreground">
-            Browse all articles in this category
+            {t('ui.browseArticles')}
           </p>
         </div>
 
@@ -72,14 +86,11 @@ export function CategoryPage() {
                 className="bg-card border border-border rounded-lg p-6 hover:bg-secondary hover:border-primary hover:shadow-elevation-sm transition-all group"
               >
                 <h4 className="group-hover:text-primary transition-colors mb-3">
-                  {article.title}
+                  {getTranslatedTitle(article)}
                 </h4>
-                <div
-                  className="text-muted-foreground line-clamp-3"
-                  dangerouslySetInnerHTML={{
-                    __html: article.content.replace(/<[^>]*>/g, ' ').substring(0, 150) + '...'
-                  }}
-                />
+                <p className="text-muted-foreground line-clamp-3">
+                  {getDescription(article)}
+                </p>
               </Link>
             )
           )}
@@ -96,7 +107,7 @@ export function CategoryPage() {
       <footer className="bg-card border-t border-border mt-16">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <p className="text-center text-muted-foreground mb-4">
-            Still need help? <a href="#" className="text-primary hover:underline">Contact Support</a>
+            {t('ui.stillNeedHelp')} <a href="#" className="text-primary hover:underline">{t('ui.contactSupportLink')}</a>
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-muted-foreground text-sm">
             <p>© Quantum Software 2026</p>

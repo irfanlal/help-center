@@ -1,0 +1,1664 @@
+{
+  "ui": {
+    "steps": "Steps",
+    "prerequisites": "Prerequisites",
+    "stepByStep": "Step-by-step instructions",
+    "tipsNotes": "Tips & Notes",
+    "needMoreHelp": "Need More Help?",
+    "needMoreHelpText": "If you have additional questions, please contact our support team or explore other articles in this section.",
+    "wasHelpful": "Was this article helpful?",
+    "yes": "Yes",
+    "no": "No",
+    "thankYes": "Thank you for your feedback!",
+    "thankYesMsg": "We're glad this article was helpful.",
+    "thankNo": "Thank you for your feedback.",
+    "thankNoMsg": "We're sorry this article wasn't helpful. Please",
+    "contactSupport": "contact support",
+    "furtherAssistance": "for further assistance.",
+    "relatedArticles": "Related Articles",
+    "stillNeedHelp": "Still need help?",
+    "contactSupportLink": "Contact Support",
+    "home": "Home",
+    "returnToHub": "Return to Help Hub",
+    "articleNotFound": "Article not found",
+    "browseByCategory": "Browse by Category",
+    "searchResults": "Search Results",
+    "cantFind": "Can't find what you're looking for?",
+    "heroTitle": "How can we help you?",
+    "searchPlaceholder": "Search for articles or ask a question",
+    "browseArticles": "Browse all articles in this category",
+    "categoryNames": {
+      "getStarted": "Get Started",
+      "admin": "Organization Admin",
+      "mpg": "Guide for Project Portfolio Admin",
+      "team": "Team Management",
+      "deliveryPlan": "Delivery Plan",
+      "fileDistribution": "File Distribution",
+      "guidesSupport": "Guides & Support",
+      "ia": "Image Analytics",
+      "decisions": "Managing Decisions",
+      "tasks": "Managing Tasks",
+      "prjDashboard": "Project Dashboard",
+      "prjSettings": "Project Settings",
+      "visualPlanning": "Visual Planning"
+    }
+  },
+  "categories": {
+    "getStarted": {
+      "msLogin": {
+        "title": "MS 365 Login",
+        "description": "Instructions for signing in using a Microsoft 365 account.",
+        "prerequisites": [
+          "A valid Microsoft 365 work or school account is required."
+        ],
+        "steps": [
+          "Go to <a href=\"https://portal.q360.no\" target=\"_blank\">portal.q360.no</a>.",
+          "Click <strong>Microsoft 365</strong>.",
+          "Enter your email address.",
+          "Click <strong>Next</strong>.",
+          "Enter your password.",
+          "Click <strong>Sign in</strong>.",
+          "If prompted <strong>Stay signed in?</strong>, select <strong>Yes</strong> or <strong>No</strong> based on your preference."
+        ],
+        "tips": [
+          "Personal Microsoft accounts are not supported."
+        ],
+        "videoCaption": "Logging in"
+      },
+      "myProjects": {
+        "title": "My Projects",
+        "description": "Overview of the project portfolios and projects the user has access to.",
+        "prerequisites": [
+          "The user must be assigned to, added as a follower of, or have created a project."
+        ],
+        "steps": [
+          "Click the dropdown icon in the top menu bar.",
+          "View the list of projects."
+        ],
+        "tips": [
+          "The left side shows project portfolios, while the right side shows the projects that belong to a selected project portfolio.",
+          "Click an project portfolio to display all projects that belong to it.",
+          "Use the search bar to find specific projects.",
+          "Pin a project to the top menu bar by clicking the outlined pin icon at the far right of its row.",
+          "Unpin a project from the top menu bar by clicking the filled pin icon at the far right of its row."
+        ],
+        "videoCaption": "Viewing projects"
+      },
+      "myWork": {
+        "title": "My Work",
+        "description": "Overview of work items (tasks, decisions, and documents) assigned to, owned by, or followed by the user. Work items from all projects the user has access to are available here.",
+        "prerequisites": [
+          "Existing items."
+        ],
+        "steps": [
+          "Click <strong>My Work</strong> in the top menu bar.",
+          "View your work items."
+        ],
+        "tips": [
+          "Keep track of deadlines here.",
+          "Use funnels to filter by status or sort by due date or priority.",
+          "Use the search bar to find specific items.",
+          "Switch between Kanban and list view."
+        ],
+        "videoCaption": "Managing My Work"
+      },
+      "myProfile": {
+        "title": "My Profile",
+        "description": "In My Profile, users can manage their personal settings and flow of information as well as view their activities in the system.",
+        "prerequisites": [
+          "The user must be registered and logged in to the system."
+        ],
+        "steps": [
+          "Click your avatar in the top right corner.",
+          "Select <strong>My Profile</strong> from the dropdown menu.",
+          "Adjust your settings."
+        ],
+        "tips": [
+          "Add or update your contact info.",
+          "Manage notifications and email settings.",
+          "Create User Activity Report."
+        ],
+        "videoCaption": "Editing profile"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "In-app notifications used to track project-related activity and updates.",
+        "prerequisites": [
+          "Existing notifications."
+        ],
+        "steps": [
+          "Click the bell icon in the top right corner.",
+          "View recent notifications."
+        ],
+        "tips": [
+          "You can enable or disable in-app notifications in My Profile.",
+          "Click the number indicator to mark all notifications within a group as seen.",
+          "Click the dropdown icon to expand and view notifications within a group.",
+          "Click a notification to navigate directly to the related project.",
+          "Seen notifications can be marked as unseen by hovering over the indicator area and clicking the red indicator.",
+          "Click the red indicator on a notification to mark it as seen."
+        ],
+        "videoCaption": "Checking notifications"
+      }
+    },
+    "visualPlanning": {
+      "navigation": {
+        "title": "Navigation",
+        "description": "Visual planning enables users to view and navigate their projects across multiple time frames.",
+        "prerequisites": [
+          "Existing items.",
+          "Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Visual Planning</strong> in the left sidebar.",
+          "Scroll down and up the board to see work items from all sections.",
+          "Use the arrows in the upper-left corner to navigate forward and backward in time.",
+          "Click <strong>Week</strong>, <strong>Month</strong>, <strong>Quarter</strong>, or <strong>Year</strong> in the top center to choose time frame."
+        ],
+        "tips": [
+          "A red dot appears next to the current time period (quarter, month, week, or date)."
+        ],
+        "videoCaption": "Navigating VP"
+      },
+      "settings": {
+        "title": "Settings",
+        "description": "Configuration of visual planning display settings.",
+        "prerequisites": [
+          "Existing items.",
+          "Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Visual Planning</strong> in the left sidebar.",
+          "Click the slider icon in the upper-right corner to open settings.",
+          "Select or deselect the types of work items you want to see.",
+          "Choose how many items you want to show per group.",
+          "Add or remove display details for the work items."
+        ],
+        "tips": [
+          "Click the <strong>X</strong> icon next to a setting name to deselect it."
+        ],
+        "videoCaption": "Configuring VP"
+      }
+    },
+    "admin": {
+      "general": {
+        "title": "General Settings",
+        "description": "Configuration of general organization settings related to administration and project setup.",
+        "prerequisites": [
+          "Organization Admin."
+        ],
+        "steps": [
+          "Click <strong>Organisation</strong> in the top menu bar.",
+          "Click <strong>Settings</strong> in the organization header in the upper-right corner.",
+          "Adjust your organization's settings."
+        ],
+        "tips": [
+          "Upload a logo.",
+          "Add or update the default billing address for your organization.",
+          {
+            "text": "Control who can create a new project portofolio:",
+            "notes": [
+              "Only Organization Admins",
+              "Anyone"
+            ]
+          }
+        ],
+        "videoCaption": "General settings"
+      },
+      "projMan": {
+        "title": "Project Management",
+        "description": "Overview of projects within the organization and related management capabilities.",
+        "prerequisites": [
+          "Existing projects."
+        ],
+        "steps": [
+          "Click <strong>Organisation</strong> in the top menu bar.",
+          "Click <strong>See more -></strong> on the right side of <strong>Projects In Progress</strong>.",
+          "View your organization's projects."
+        ],
+        "tips": [
+          "Use the search bar to find specific projects.",
+          "Click a project to access its details.",
+          "Switch between Kanban and list view.",
+          "Create a new project.",
+          "Access project portfolio settings."
+        ],
+        "videoCaption": "Managing projects"
+      },
+      "userMan": {
+        "title": "User Management",
+        "description": "Administration of users within the organization, including role assignment and account status.",
+        "prerequisites": [
+          "Organization Admin rights are required to edit another user's admin rights or mark a user as inactive."
+        ],
+        "steps": [
+          "Click <strong>Organisation</strong> in the top menu bar.",
+          "Click <strong>See more →</strong>.",
+          "View your organization's users.",
+          "Click the three-dot menu icon to the far right of a user's name to open the dropdown menu.",
+          "Click <strong>Set as admin</strong> to give a user Organization Admin rights.",
+          "Click <strong>Mark as inactive</strong> and then <strong>Confirm</strong> to mark a user as inactive."
+        ],
+        "tips": [
+          "Use the search bar to find specific users.",
+          "Sort users by last login date.",
+          "Inactive users are removed from all positions, lose admin access (if they have it), and are excluded from available user lists."
+        ],
+        "videoCaption": "Managing users"
+      },
+      "contMan": {
+        "title": "Contact Management",
+        "description": "Organization of contacts within the organization using defined sections.",
+        "prerequisites": [
+          "Organization Admin."
+        ],
+        "steps": [
+          "Click <strong>Organisation</strong> in the top menu bar.",
+          "Find the <strong>Contact</strong> section on the right.",
+          "Click <strong>Add +</strong>.",
+          "Select a member from the contact list.",
+          "Choose the section where you want the contact listed.",
+          "Click <strong>Save</strong>."
+        ],
+        "tips": [
+          "Click a contact row to view details.",
+          "While viewing the contact details, click <strong>Remove contact</strong> to remove the contact from the section.",
+          "Click a section name to rename it."
+        ],
+        "videoCaption": "Managing contact list"
+      },
+      "mpg": {
+        "title": "Create Project Portfolio",
+        "description": "A project portfolio in Q360 groups related projects together for unified reporting and coordination.. This feature is useful for large initiatives where multiple projects need to be grouped together for reporting and coordination.",
+        "prerequisites": [
+          {
+            "text": "Organization Admins can control who is allowed to create project portfolios in General Settings. There are 2 options:",
+            "notes": [
+              "Only Organization Admins",
+              "Anyone"
+            ]
+          }
+        ],
+        "instructionGroups": [
+          {
+            "label": "Method 1",
+            "steps": [
+              "Click the dropdown icon in the top menu bar.",
+              "Click <strong>New project portfolio</strong>.",
+              "Enter the project portfolio name.",
+              "The system will suggest a short name, but you can adjust it if needed.",
+              "Click <strong>Select a purpose</strong> to open a dropdown.",
+              "Select the project portfolio purpose from the list.",
+              "Click <strong>SAVE</strong>."
+            ]
+          },
+          {
+            "label": "Method 2",
+            "steps": [
+              "Click <strong>Organisation</strong> in the top menu bar.",
+              "Click <strong>See more -></strong> on the right side of <strong>Projects In Progress</strong>.",
+              "Click the list icon to the left of <strong>Project portfolio</strong> in the upper-right corner.",
+              "Follow steps 2–7 from the first method."
+            ]
+          }
+        ],
+        "tips": [
+          {
+            "text": "Each project portfolio has two names:",
+            "notes": [
+              "<strong>Long name:</strong> Used as a descriptive label together with the Project name, e.g., <strong>E10 - Evenes Airport</strong> for European road E10 near Evenes Airport.<br><u>Note:</u> The long name can be changed later if needed.",
+              "<strong>Short name:</strong> Used to create a <em>unique</em> label together with the Project name for identifying work items, e.g., <strong>E10-EVEN</strong> for European road E10 near Evenes Airport.<br><u>Note:</u> The short name must be 2-5 characters long and cannot be changed later."
+            ]
+          },
+          "There are 3 types of project portfolio purposes: <strong>In-house projects only</strong>, <strong>I am the client in all projects</strong>, and <strong>Another organization is the client in all projects</strong>.",
+          "Assign project portfolio Admin after creating the project portfolio."
+        ],
+        "videoCaption": "Creating a new project portfolio in Q360"
+      }
+    },
+    "mpg": {
+      "access": {
+        "title": "Access Project Portfolio Settings",
+        "description": "Every project in Q360 belongs to a portfolio called a project portfolio. Project portfolio settings allow administrators to manage group-level configurations and permissions.",
+        "prerequisites": [
+          "The user must have either Organization Admin or Project Portfolio Admin rights in Q360 to be able to access project portfolio settings."
+        ],
+        "steps": [
+          "To access project portfolio settings in the left sidebar menu:",
+          "Navigate to the project you want to administrate.",
+          "Click <strong>Settings</strong> in the left sidebar.",
+          "Click <strong>Project portfolio settings</strong>.",
+          "To access project portfolio settings from Project selection list:",
+          "Click the dropdown icon in the top menu bar.",
+          "Click the <strong>Settings ⚙</strong> icon next to the project portfolio name.",
+          "To access project portfolio settings from Organization page:",
+          "Click <strong>Organisation</strong> in the top menu bar.",
+          "If your project portfolio is not listed, click <strong>See more ➔</strong> on the right side of <strong>Projects In Progress</strong>. This will take you to the list of all projects you have access to.",
+          "Click the <strong>settings ⚙</strong> icon next to the project portfolio name."
+        ],
+        "tips": [
+          "The <strong>settings ⚙</strong> icon will appear wherever you have access to project portfolio settings."
+        ],
+        "videoCaption": "Accessing project portfolio settings from different locations"
+      },
+      "ownership": {
+        "title": "Project Portfolio Ownership",
+        "description": "Project portfolio ownership in Q360 defines who has administrative control over a project portfolio.",
+        "prerequisites": [
+          "The user must have either Organization Admin or Project Portfolio Admin rights in Q360 to be able to manage project portfolio ownership."
+        ],
+        "instructionGroups": [
+          {
+            "label": "Add a project portfolio admin from your organization",
+            "steps": [
+              "Access project portfolio settings.",
+              "If necessary, scroll down until you see <strong>Add a project portfolio admin</strong>.",
+              "Click <strong>Add a project portfolio admin</strong> to open the dropdown menu.",
+              "Scroll or start typing a name to find the user.",
+              "Select the user.",
+              "Click <strong>Add</strong>."
+            ]
+          },
+          {
+            "label": "Invite a collaborating organization",
+            "steps": [
+              "Access project portfolio settings.",
+              "If necessary, scroll down until you see <strong>Enter an email or search for users</strong>.",
+              "Click <strong>Enter an email or search for users</strong>.",
+              "Scroll or start typing a name to find the user.",
+              "Select the user if listed.",
+              "Click the <strong>Send an invitation</strong> button."
+            ]
+          }
+        ],
+        "tips": [
+          {
+            "text": "A project portfolio can have two organizations sharing the ownership. As an <strong>Project Portfolio Admin</strong>, you can grant Project Portfolio Admin rights to other members within your organization. You can also invite members from another organization to participate in the project as an Project Portfolio Admin:",
+            "notes": [
+              "The owner, who is always the client.",
+              "The co-owner.",
+              "This setup is useful when a collaborating partner is managing the project on behalf of the client."
+            ]
+          },
+          "As an owner, you can invite co-owner to collaborate in this project portfolio.",
+          "As a co-owner, you can invite an organization to become an owner of this project portfolio.",
+          "If the email is registered in our system, enter three or more letters and then the @ sign. A list will be populated with all matching emails. This will increase the accuracy of the invitation.",
+          "Both organizations have equal rights to administer project settings. However, the client can remove the co-owner, while the co-owner can never remove the client."
+        ],
+        "videoCaption": "Managing Project Portfolio Admin rights"
+      },
+      "subscription": {
+        "title": "Subscription Ownership",
+        "description": "Subscription ownership in Q360 determines which organization is responsible for managing the subscription for the selected project. This feature is useful when the client is not handling payment, such as in cases where a partner organization assumes financial responsibility due to contractual agreements. As an Project Portfolio Admin, you can transfer subscription ownership to another organization participating in the project. The organization designated as the Subscription Owner will have exclusive access to subscription settings.",
+        "prerequisites": [
+          "The user must have either Organization Admin or Project Portfolio Admin rights in Q360 to be able to manage subscription ownership.",
+          "At least 1 project must exist in a project portfolio."
+        ],
+        "steps": [
+          "Click the dropdown icon in the top menu bar.",
+          "Click the <strong>Settings ⚙</strong> icon next to the project portfolio name to open project portfolio settings.",
+          "Click <strong>Subscription ownership</strong>.",
+          "Click the organization name next to a project name to open the dropdown menu.",
+          "Select an organization from the dropdown menu.",
+          "Read the warnings to understand the impact of the change.",
+          "Click <strong>Confirm changes</strong>."
+        ],
+        "tips": [
+          "As an <strong>Project Portfolio Admin</strong>, you can select another organization participating in a project to manage the subscription. This is useful when the client is not responsible for payment, for example, due to contractual obligations.",
+          {
+            "text": "The organization selected as the <strong>Subscription Owner</strong> is the only organization with access to subscription settings. The following roles within that organization have access:",
+            "notes": [
+              "Organization Admin",
+              "Project Portfolio Admin",
+              "Project Admin"
+            ]
+          }
+        ],
+        "videoCaption": "Managing subscription ownership"
+      },
+      "createProject": {
+        "title": "Create Project",
+        "description": "Creating a project in Q360 enables work to be structured and managed within a defined project portfolio. Projects provide a centralized context for organizing tasks, resources, and reporting across teams. Organization Admins and Project Portfolio Admins can create projects within the designated project portfolio.",
+        "prerequisites": [
+          "The user must have either Organization Admin or Project Portfolio Admin rights in Q360 to be able to create a project.",
+          "At least 1 existing project portfolio."
+        ],
+        "steps": [
+          "Click the dropdown icon in the top menu bar.",
+          "Select the project portfolio you want to create the project within.",
+          "Click <strong>New project</strong> in the upper-right corner.",
+          "Enter the project name.",
+          "The system will suggest a short name for the project, but you can adjust it if needed.",
+          "Click <strong>Create</strong>."
+        ],
+        "tips": [
+          {
+            "text": "Each project can be recognized by two names:",
+            "notes": [
+              "<strong>Long name:</strong> Used as a descriptive label together with the project portfolio name, e.g., <strong>E10 - Evenes airport</strong> for European road E10 near Evenes airport.<br><u>Note:</u> The long name can be changed later if needed.",
+              "<strong>Short name:</strong> Used to create a <em>unique</em> label together with the project portfolio short name for identifying work items, e.g., <strong>E10-EVEN</strong> for European road E10 near Evenes airport.<br><u>Note:</u> The short name must be 2-5 characters long and cannot be changed later."
+            ]
+          },
+          "If the client (project portfolio owner's organization) is missing, the project portfolio co-owner can create only one project in the portfolio."
+        ],
+        "videoCaption": "Creating a new project in Q360"
+      }
+    },
+    "team": {
+      "structure": {
+        "title": "Team Structure",
+        "description": "Definition and management of the project team's high-level structure through sections and groups.",
+        "prerequisites": [
+          "Project Admin.",
+          "A project must be active."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Team</strong> in the left sidebar.",
+          "Click <strong>Edit team</strong> in the upper-right corner.",
+          "Click <strong>New section</strong>.",
+          "Enter a section name.",
+          "Click <strong>Save</strong> in the dialog.",
+          "Click <strong>Add group</strong> in the newly created section.",
+          "Enter a group name.",
+          "Click <strong>SAVE</strong> in the dialog.",
+          "Click <strong>Done</strong>."
+        ],
+        "tips": [
+          "Deleting a group will remove all positions within it. Be careful.",
+          "Drag and drop a section or a group to change its order in team structure.",
+          "Choose a person to which the group or section reports."
+        ],
+        "videoCaption": "Managing structures"
+      },
+      "positions": {
+        "title": "Manage Positions",
+        "description": "Creation and definition of positions within groups to which users can be assigned.",
+        "prerequisites": [
+          "Project Admin.",
+          "A group must exist to contain the position."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Team</strong> in the left sidebar.",
+          "Click <strong>Edit team</strong> in the upper-right corner.",
+          "Click <strong>New position</strong> in the desired group.",
+          "Enter a position title.",
+          "Select a position role.",
+          "Click <strong>SAVE</strong> in the dialog.",
+          "Click <strong>Done</strong>."
+        ],
+        "tips": [
+          "Use generic titles (e.g. 'Senior Dev') rather than names.",
+          "Click three-dot menu icon in the upper-right corner to see <strong>Delete</strong> option.",
+          "Click position title in the side pane to edit its name."
+        ],
+        "videoCaption": "Managing positions"
+      },
+      "assign": {
+        "title": "Assign Users",
+        "description": "Assignment of users to positions defined within the team structure.",
+        "prerequisites": [
+          "Project Admin.",
+          "Position must be created first."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Team</strong> in the left sidebar.",
+          "Click <strong>Edit team</strong> in the upper-right corner.",
+          "Click on an unassigned position (or one with a user to change the assigned user).",
+          "If a position is assigned, click the <strong>X</strong> icon next to the user's name, then select <strong>REMOVE</strong> in the dialog to remove the user from the position.",
+          "Click <strong>Assign this position</strong>.",
+          "Select a user from the dropdown menu.",
+          "Click <strong>SAVE</strong> in the dialog.",
+          "Click <strong>Done</strong>."
+        ],
+        "tips": [
+          "You can re-assign a position by searching for a new user, replacing the existing one."
+        ],
+        "videoCaption": "Assigning users"
+      },
+      "roles": {
+        "title": "Roles & Permissions",
+        "description": "Define and configure member roles, including assigning roles such as Project Admin and Project Observer, and managing their responsibilities and permissions.",
+        "prerequisites": [
+          "Project Admin.",
+          "A user must be assigned to a position."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Team</strong> in the left sidebar.",
+          "Click <strong>Edit team</strong> in the upper-right corner.",
+          "Click the user whose role you want to change.",
+          "Click the user's current role to open the dropdown menu.",
+          "Select new role (admin, participant, observer).",
+          "Toggle <strong>Group Admin</strong> to let them manage their own group.",
+          "Click <strong>Done</strong>."
+        ],
+        "tips": [
+          "Group Admins can only edit the group they are assigned to."
+        ],
+        "videoCaption": "Managing roles"
+      },
+      "maint": {
+        "title": "Maintenance & Templates",
+        "description": "Tools for maintaining the project team structure, including cleaning up existing configurations and saving reusable templates.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Team</strong> in the left sidebar.",
+          "Click <strong>Edit team</strong> in the upper-right corner.",
+          "Click <strong>Clean up</strong>.",
+          "Click <strong>Delete</strong> in the dialog.",
+          "Click <strong>Save as template</strong>.",
+          "Enter template name.",
+          "Select or create template category.",
+          "Select a language.",
+          "Click <strong>Save</strong> in the dialog.",
+          "Click <strong>Done</strong>."
+        ],
+        "tips": [
+          "Templates save the structure (roles/groups) but not the assigned users to the roles/groups.",
+          "Review the team structure before cleaning up."
+        ],
+        "videoCaption": "Maintenance tools"
+      }
+    },
+    "deliveryPlan": {
+      "deliveryPackage": {
+        "title": "Delivery Package",
+        "description": "A Delivery Package defines a single delivery chain between a producer and a receiver. It groups entries — the individual document records being tracked — and configures how they flow through the QA process and get delivered.",
+        "prerequisites": [
+          "Delivery Plan module purchased.",
+          "Existing delivery package."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>All my delivery packages</strong> in the upper-left corner to open a dropdown menu.",
+          "Select a delivery package from the dropdown menu.",
+          "Click the <strong>Entries</strong> tab to see entries from the selected delivery package grouped by entry type.",
+          "Click the <strong>QA Plan</strong> tab to see QA stages and statuses for the entries from the selected delivery package.",
+          "Click <strong>+ New entry</strong> in the upper-right corner to create a new entry.",
+          "Click <strong>DLP settings</strong> and then the pencil icon next to the delivery package name to edit its settings.",
+          "Click the toggle button in the <strong>Publish</strong> column to publish an entry to <strong>File Distribution</strong>."
+        ],
+        "tips": [
+          "Use the search bar to find specific entries.",
+          "Open the entry details by clicking an entry.",
+          "Click <strong>DLP settings</strong> in the upper-right corner to change project-wide delivery packages, entry types, and quality assurance settings."
+        ],
+        "videoCaption": "Browsing delivery package"
+      },
+      "createDeliveryPackage": {
+        "title": "Create Delivery Package",
+        "description": "Before any entries can be tracked or delivered, a package must exist — it sets the collaborators involved, the delivery timeline, revision rules, and which QA stages each entry must pass through.",
+        "prerequisites": [
+          "Delivery Plan module purchased."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click the <strong>Take me there -></strong> link below the <strong>No delivery packages yet. Start by creating a delivery package in the DLP Settings</strong> text in the center of the page.",
+          "Click <strong>New delivery package +</strong> in the upper-right corner.",
+          "Select the type of delivery package.",
+          "Click <strong>Next +</strong>.",
+          "Add a title, start and delivery dates, description, and default slack for Quality Assurance.",
+          "Select QA requirements.",
+          "Select the delivery method.",
+          "Click <strong>Save</strong>."
+        ],
+        "tips": [
+          "You can create up to 3 delivery packages per project.",
+          "There are 3 types of delivery packages: upward, downward, and internal.",
+          "The organization creating and delivering entries is called the producer, while the organization receiving and approving them is called the receiver.",
+          "You can update the delivery package configuration and QA requirements at any time through <strong>DLP Settings</strong>.",
+          "In an upward or downward delivery package, the producer can only change producer QA requirements, and the receiver can only change receiver QA requirements."
+        ],
+        "videoCaption": "Creating delivery package"
+      },
+      "entryTypes": {
+        "title": "Entry Types",
+        "description": "Entry types are document categories used to classify entries within a delivery package. Each entry must have a type assigned when it is created.",
+        "prerequisites": [
+          "Delivery Plan module purchased."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>DLP Settings</strong> in the upper-right corner.",
+          "Click <strong>Entry Types</strong>.",
+          "View the default entry types."
+        ],
+        "tips": [
+          "There are 4 default entry types: Drawings, Models, Other Documents, and Reports.",
+          "You can delete or rename default entry types.",
+          "You can create custom entry types."
+        ],
+        "videoCaption": "Viewing entry types"
+      },
+      "createEntryType": {
+        "title": "Create Entry Type",
+        "description": "Provides functionality for creating and defining new entry types within a project.",
+        "prerequisites": [
+          "Delivery Plan module purchased."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>DLP Settings</strong> in the upper-right corner.",
+          "Click <strong>Entry Types</strong>.",
+          "Click <strong>New type +</strong> in the upper-right corner.",
+          "Enter the singular and plural title forms of the new entry type.",
+          "Click <strong>Create</strong>."
+        ],
+        "tips": [
+          "You can delete or rename custom entry types."
+        ],
+        "videoCaption": "Creating entry type"
+      },
+      "createEntry": {
+        "title": "Create Entry",
+        "description": "Provides functionality for creating and defining new entries within a delivery package.",
+        "prerequisites": [
+          "Delivery Plan module purchased.",
+          "Existing delivery package."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>All my delivery packages</strong> in the upper-left corner to open a dropdown menu.",
+          "Select a delivery package from the dropdown menu.",
+          "Click <strong>+ New entry</strong> in the upper-right corner.",
+          "Enter an entry number, next revision, title, and description.",
+          "Select an entry type and person responsible for the document.",
+          "Select the delivery date.",
+          "Click <strong>Save</strong>."
+        ],
+        "tips": [
+          "You can specify the location that the entry belongs to or is intended for."
+        ],
+        "videoCaption": "Creating entry"
+      },
+      "qaStages": {
+        "title": "Quality Assurance Stages",
+        "description": "The QA workflow governs how entries are reviewed and approved before delivery. Producer QA stages run first, followed by receiver QA stages — each stage can be assigned to a team member, given a delivery date, and either accepted or rejected, with rejections triggering a new document version.",
+        "prerequisites": [
+          "Delivery Plan module purchased."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>DLP Settings</strong> in the upper-right corner.",
+          "Click <strong>Quality Assurance (Producer)</strong> or <strong>Quality Assurance (Receiver)</strong>.",
+          "Click a producer or receiver QA stage.",
+          "Edit the QA stage by changing its title, description, number of days to perform the stage, and whether it should be performed by the assignee.",
+          "Click <strong>Save</strong>."
+        ],
+        "tips": [
+          "You can delete default QA stages.",
+          "Reorder QA stages by dragging and dropping them.",
+          "You can create custom QA stages.",
+          "The organization creating and delivering entries is called the producer, while the organization receiving and approving them is called the receiver.",
+          "There are 4 default producer QA stages: self control, interdisciplinary control, document control, and discipline control.",
+          "There are 2 default receiver QA stages: discipline control and publishing control."
+        ],
+        "videoCaption": "Browsing QA stages"
+      },
+      "createQAStage": {
+        "title": "Create QA Stage",
+        "description": "QA stages define the review checkpoints that entries must pass before delivery. Stages are created at the project level in DLP Settings and then enabled per delivery package as needed.",
+        "prerequisites": [
+          "Delivery Plan module purchased.",
+          "Existing delivery package."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>DLP Settings</strong> in the upper-right corner.",
+          "Click <strong>Quality Assurance (Producer)</strong> or <strong>Quality Assurance (Receiver)</strong>.",
+          "Click <strong>New stage +</strong> in the upper-right corner.",
+          "Enter the stage title, description, number of days to perform the stage, and whether it should be performed by the assignee.",
+          "Click <strong>Create</strong>.",
+          "Click <strong>Delivery Package</strong> and then the pencil icon next to the delivery package name to edit its settings.",
+          "Find the newly created QA stage in the QA requirements section.",
+          "Click <strong>Not used</strong> next to its name to open a dropdown menu.",
+          "Select <strong>Required</strong> or <strong>Optional</strong> from the dropdown menu to enable the QA stage for the delivery package."
+        ],
+        "tips": [
+          "You can delete custom QA stages.",
+          "Reorder QA stages by dragging and dropping them.",
+          "The organization creating and delivering entries is called the producer, while the organization receiving and approving them is called the receiver.",
+          "Users from the producer organization can create, edit, and delete both producer and receiver QA stages, but can only enable or disable producer QA stages on a delivery package.",
+          "Users from the receiver organization can create, edit, and delete both producer and receiver QA stages, but can only enable or disable receiver QA stages on a delivery package."
+        ],
+        "videoCaption": "Creating QA stage"
+      },
+      "publish": {
+        "title": "Publish Entry",
+        "description": "Publishing an entry makes it available in the File Distribution page, where it can be viewed and downloaded by the intended recipients.",
+        "prerequisites": [
+          "Delivery Plan module purchased.",
+          "Existing entries."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>All my delivery packages</strong> in the upper-left corner to open a dropdown menu.",
+          "Select a delivery package from the dropdown menu.",
+          "If not selected, click the <strong>Entries</strong> tab.",
+          "Find the entry that you want to publish.",
+          "Click the <strong>Publish</strong> toggle button located at the far right of the entry's row.",
+          "Verify the entry has been published by navigating to <strong>File Distribution</strong>."
+        ],
+        "tips": [
+          "You can unpublish an entry by clicking the <strong>Publish</strong> toggle button again."
+        ],
+        "videoCaption": "Publishing entry"
+      },
+      "funnels": {
+        "title": "Funnels",
+        "description": "Funnels are saved filter views which let users quickly switch between pre-configured subsets of entries across all delivery packages. Any combination of filters and sort preferences — by status, entry type, delivery package, and more — can be saved as a named funnel and reused at any time.",
+        "prerequisites": [
+          "Delivery Plan module purchased.",
+          "Existing entries."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>Funnel Settings</strong>.",
+          "Filter entries by status, delivery package, entry type, delivery type, or responsible group.",
+          "Sort entries by entry ID, entry type, revision date, etc.",
+          "Click <strong>Funnel settings</strong>.",
+          "Click <strong>New funnel from current setup</strong>.",
+          "Enter a new funnel name.",
+          "Click <strong>Save</strong> in the dialog."
+        ],
+        "tips": [
+          "If <strong>Funnel settings</strong> are not visible, click the three vertical lines next to the <strong>Search</strong> input to open them.",
+          "To keep <strong>Funnel Settings</strong> permanently visible, check the checkbox next to <strong>Show funnel details</strong> once the funnel settings are open."
+        ],
+        "videoCaption": "Using funnels"
+      }
+    },
+    "fileDistribution": {
+      "overview": {
+        "title": "Overview",
+        "description": "The File Distribution page provides a complete register of document entries from the Delivery Plan, including published entries, obsolete entries, and entries currently in production. Each entry shows its entry ID, current status, revision, date, location, title, entry type, and responsible group. Published entries include a download link to retrieve the latest distributed file.",
+        "prerequisites": [
+          "File Distribution module purchased.",
+          "Published entries."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>File Distribution</strong> in the left sidebar.",
+          "Browse the list of document entries."
+        ],
+        "tips": [
+          "Use the search bar to find specific entries.",
+          "Use funnel settings to filter and sort entries.",
+          "To find entries that were marked as published, click the <strong>Published</strong> funnel or select the published status in <strong>Funnel settings</strong>.",
+          "Open the entry details by clicking an entry."
+        ],
+        "videoCaption": "Browsing file distribution"
+      },
+      "funnels": {
+        "title": "Funnels",
+        "description": "Funnels are saved filter views which let users quickly switch between pre-configured subsets of entries across all delivery packages. Any combination of filters and sort preferences — by status, location, and more — can be saved as a named funnel and reused at any time.",
+        "prerequisites": [
+          "File Distribution module purchased.",
+          "Existing entries."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>File Distribution</strong> in the left sidebar.",
+          "Click <strong>Funnel Settings</strong>.",
+          "Filter entries by status, location, tags, or responsible group.",
+          "Sort entries by entry ID, entry type, revision date, etc.",
+          "Click <strong>Funnel settings</strong>.",
+          "Click <strong>New funnel from current setup</strong>.",
+          "Enter new funnel name.",
+          "Click <strong>Save</strong> in the dialog."
+        ],
+        "tips": [
+          "If <strong>Funnel settings</strong> are not visible, click the three vertical lines next to <strong>Search</strong> input to open them.",
+          "To keep <strong>Funnel Settings</strong> permanently visible, check the checkbox next to <strong>Show funnel details</strong> once the funnel settings are open."
+        ],
+        "videoCaption": "Using funnels"
+      },
+      "download": {
+        "title": "Download Revisions",
+        "description": "Each entry in File Distribution maintains a full revision history, so recipients can retrieve any version of a delivered document at any time.",
+        "prerequisites": [
+          "File Distribution module purchased.",
+          "Published entries."
+        ],
+        "instructionGroups": [
+          {
+            "label": "Download all revisions",
+            "steps": [
+              "Navigate to the desired project.",
+              "Select <strong>File Distribution</strong> in the left sidebar.",
+              "Open the entry details by clicking an entry.",
+              "Click the three-dot menu icon in the upper-right corner to open a dropdown menu.",
+              "Click the <strong>Download all revisions</strong> option."
+            ]
+          },
+          {
+            "label": "Download latest revision",
+            "steps": [
+              "Navigate to the desired project.",
+              "Select <strong>File Distribution</strong> in the left sidebar.",
+              "Open the entry details by clicking an entry.",
+              "Click the <strong>Published</strong> funnel in the filter bar above the table.",
+              "Click the entry ID or download icon next to it to download the entry's latest revision."
+            ]
+          }
+        ],
+        "tips": [
+          "The latest revision can only be downloaded for entries that have completed the QA stages and been published.",
+          "Click the <strong>Open in Delivery Plan</strong> option in the three-dot menu if you need to check the entry before downloading revisions."
+        ],
+        "videoCaption": "Downloading revisions"
+      },
+      "requestNewRevision": {
+        "title": "Request New Revision",
+        "description": "Request New Revision allows users to formally notify the producer that an already-delivered document needs to be updated. Once submitted, the producer is notified and the entry remains on hold until they upload a revised version.",
+        "prerequisites": [
+          "File Distribution module purchased.",
+          "Published entries."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>File Distribution</strong> in the left sidebar.",
+          "Open the entry details by clicking an entry.",
+          "Click the three-dot menu icon in the upper-right corner to open a dropdown menu.",
+          "Click the <strong>Request new revision</strong> option.",
+          "Provide a comment or attach documentation explaining the reason for the new revision request.",
+          "If necessary, mark the entry as obsolete.",
+          "Click <strong>Send request</strong>."
+        ],
+        "tips": [
+          "When an entry is marked as obsolete, it will not be published as a valid document upon approval — instead, it will be closed and appear as obsolete in File Distribution.",
+          "The organization creating and delivering entries is called the producer, while the organization receiving and approving them is called the receiver."
+        ],
+        "videoCaption": "Requesting new revisions"
+      }
+    },
+    "guidesSupport": {
+      "beginner": {
+        "title": "Beginner Guides",
+        "description": "The Beginner Guides introduce key features and explain how to use essential functionality in Q360. They help users become familiar with core areas of the platform.",
+        "prerequisites": [
+          "The user must be registered and logged in to the system."
+        ],
+        "instructionGroups": [
+          {
+            "label": "My Account",
+            "steps": [
+              "Click the circled question icon in the top right corner.",
+              "Hover over the <strong>Beginner guides</strong> item in the dropdown menu to display the available beginner guides.",
+              "Click <strong>My Account</strong>.",
+              "A blue information box will appear with a short explanation. Read it carefully.",
+              "The blue box will show you where your avatar is located in the top right corner. Click your avatar.",
+              "Select <strong>My Profile</strong> from the dropdown menu to open your profile."
+            ]
+          },
+          {
+            "label": "Projects",
+            "steps": [
+              "Click the circled question icon in the top right corner.",
+              "Hover over the <strong>Beginner guides</strong> item in the dropdown menu to display the available beginner guides.",
+              "Click <strong>Projects</strong>.",
+              "A blue information box will appear with a short explanation. Read it carefully.",
+              "The blue box will point to the dropdown icon in the top menu bar. Click the dropdown icon.",
+              "View the list of projects."
+            ]
+          },
+          {
+            "label": "Collaboration",
+            "steps": [
+              "Click the circled question icon in the top right corner.",
+              "Hover over the <strong>Beginner guides</strong> item in the dropdown menu to display the available beginner guides.",
+              "Click <strong>Collaboration</strong>.",
+              "After selecting <strong>Collaboration</strong>, the system will open the most recently accessed project. A blue information box will appear, pointing to the <strong>Team</strong> menu item in the left sidebar.",
+              "Click the <strong>Team</strong> menu item (represented by a two-person icon) to access the project team.",
+              "View or edit the project team."
+            ]
+          }
+        ],
+        "tips": [
+          "Click the <strong>X</strong> icon in the information box to close the beginner guide.",
+          "Only users assigned the Project Admin role can edit the project team."
+        ],
+        "videoCaption": "Using beginner guides"
+      },
+      "feedback": {
+        "title": "Give Feedback",
+        "description": "Users can provide feedback by sharing suggestions, reporting issues, or proposing improvements to enhance the overall experience in Q360.",
+        "prerequisites": [
+          "The user must be registered and logged in to the system."
+        ],
+        "steps": [
+          "Click the circled question icon in the top right corner.",
+          "Click <strong>Give feedback</strong> in the dropdown menu.",
+          "Enter your message.",
+          "If necessary, attach a file to provide additional context.",
+          "Click <strong>Send</strong> to submit your feedback.",
+          "Our system administrators will review your feedback. You will receive an email once it has been addressed."
+        ],
+        "tips": [
+          "Provide as much detail as possible to help us understand your feedback.",
+          "Click the <strong>X</strong> icon to the right of an attachment to remove it."
+        ],
+        "videoCaption": "Giving feedback"
+      },
+      "support": {
+        "title": "Request Support",
+        "description": "Users can request support for technical issues, system errors, or other platform-related problems.",
+        "prerequisites": [
+          "The user must be registered and logged in to the system."
+        ],
+        "steps": [
+          "Click the circled question icon in the top right corner.",
+          "Click <strong>Request support</strong> in the dropdown menu.",
+          "Enter the subject of the support request.",
+          "Enter a detailed description of the issue.",
+          "If necessary, attach a file to provide additional context.",
+          "Click <strong>Send</strong> to submit the support request.",
+          "Our system administrators will review your support request. You will receive an email once it has been addressed."
+        ],
+        "tips": [
+          "Provide as much detail as possible to help us understand your support request.",
+          "Include screenshots or relevant attachments when reporting technical issues.",
+          "Click the <strong>X</strong> icon to the right of an attachment to remove it."
+        ],
+        "videoCaption": "Requesting support"
+      },
+      "policies": {
+        "title": "Policies",
+        "description": "The Policies section contains the official Q360 policy documents, including information on cookie usage, data protection, and service terms. These documents define the legal and operational framework governing the use of the platform.",
+        "prerequisites": [
+          "The user must be registered and logged in to the system."
+        ],
+        "steps": [
+          "Click the circled question icon in the top right corner.",
+          "Click one of the available policies (<strong>Use of Cookies</strong>, <strong>Privacy Policy</strong>, <strong>Service Level Agreement</strong>) in the <strong>Policies</strong> section of the dropdown menu.",
+          "The selected policy will open in a new browser tab. Read it carefully."
+        ],
+        "tips": [
+          "All official policies are publicly available at <a href=\"https://quantum360.no\" target=\"_blank\">quantum360.no</a>."
+        ],
+        "videoCaption": "Accessing Q360 policies"
+      }
+    },
+    "prjSettings": {
+      "overview": {
+        "title": "Overview",
+        "description": "The Overview section provides a high-level summary of the project and allows users to view and update essential project information.",
+        "prerequisites": [
+          "Existing project."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Overview</strong> in the left sidebar.",
+          "View and edit the project's essential information."
+        ],
+        "tips": [
+          "Change project status.",
+          "Add or remove the cover photo.",
+          "Navigate to <strong>General Settings</strong>, <strong>Team</strong>, and <strong>Project Portfolio Settings</strong>.",
+          "View tasks assigned to your groups within the project.",
+          "Add or remove the start and estimated due dates.",
+          "Add project description, contract value, currency, and location."
+        ],
+        "videoCaption": "Configuring general settings"
+      },
+      "general": {
+        "title": "General Settings",
+        "description": "The General Settings section allows users to manage the project's basic details.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Settings</strong> in the left sidebar.",
+          "Select <strong>General information</strong>.",
+          "Change the project's current status.",
+          "Click the project name to rename it.",
+          "If missing, add the project's estimated delivery date."
+        ],
+        "tips": [
+          "A project can have 3 statuses: On Hold, In Progress, and Closed."
+        ],
+        "videoCaption": "Configuring general settings"
+      },
+      "pricing": {
+        "title": "Pricing Plan",
+        "description": "Management of subscription and billing tiers that determine the set of features available within a project.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Settings</strong> in the left sidebar.",
+          "Select <strong>Pricing Plan</strong>.",
+          "Choose a pricing plan.",
+          "Fill out the mandatory fields.",
+          "Click <strong>Continue -></strong>.",
+          "Confirm entered details.",
+          "Click <strong>Continue -></strong>.",
+          "Enjoy your pricing plan and new features."
+        ],
+        "tips": [
+          "Click <strong>Contact us</strong> in the lower-right corner for a custom plan tailored to your needs.",
+          "There are 3 plans: Free, Starter, and Professional.",
+          {
+            "text": "Free plan includes:",
+            "notes": [
+              "15 members per project",
+              "Task management",
+              "Integrations"
+            ]
+          },
+          {
+            "text": "Starter plan includes:",
+            "notes": [
+              "Free plan features",
+              "Collaboration between organizations",
+              "Decisions",
+              "Dependencies"
+            ]
+          },
+          {
+            "text": "Professional plan includes:",
+            "notes": [
+              "Free + Starter plan features",
+              "Visual Planning (VDC)",
+              "Image Analytics"
+            ]
+          }
+        ],
+        "videoCaption": "Managing pricing"
+      },
+      "tags": {
+        "title": "Tags and Objects",
+        "description": "Organization of work items using custom tags and detected objects for categorization and selection.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Settings</strong> in the left sidebar.",
+          "Select <strong>Tags and Objects</strong>.",
+          "Click <strong>+ New user tag</strong>.",
+          "Enter tag name.",
+          "Click <strong>Create</strong>."
+        ],
+        "tips": [
+          "Use consistent naming conventions.",
+          "Sort tags and objects by name and usage.",
+          "View tags, objects, and locations detected by Image Analytics when images are uploaded."
+        ],
+        "videoCaption": "Managing tags"
+      },
+      "importance": {
+        "title": "Importance",
+        "description": "Configuration of importance levels that define task and decision priority.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Settings</strong> in the left sidebar.",
+          "Select <strong>Importance</strong>.",
+          "Select the importance value to be used as the default when creating tasks and decisions.",
+          "Select or deselect the importance values available when creating tasks and decisions."
+        ],
+        "tips": [
+          "Default importance value cannot be unselected.",
+          "You must use a minimum of 2 importance values.",
+          "Click the importance label to rename it.",
+          "Click <strong>Reset default</strong> in the upper-right corner to restore the default importance settings."
+        ],
+        "videoCaption": "Setting importance"
+      },
+      "tasksSettings": {
+        "title": "Tasks Settings",
+        "description": "Configuration of rules for task creation and approval.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Settings</strong> in the left sidebar.",
+          "Select <strong>Task Settings</strong>.",
+          "Choose whether start date, due date, hours estimation, and tags are optional or required when creating and editing a task.",
+          "Select open workflow (all team members can edit tasks) or restricted workflow (only the task owner or organization admin can approve, cancel, or reopen tasks)."
+        ],
+        "tips": [
+          "Standardize task formats.",
+          "Ensure alignment with team processes."
+        ],
+        "videoCaption": "Configuring tasks"
+      },
+      "decisionsSettings": {
+        "title": "Decision Settings",
+        "description": "Configuration of rules for decision creation and approval.",
+        "prerequisites": [
+          "Project Admin."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Settings</strong> in the left sidebar.",
+          "Select <strong>Decision Settings</strong>.",
+          "Choose whether tags and affected groups are required when creating and editing a decision.",
+          "Choose whether decisions require owner approval or are auto-approved after a set number of days."
+        ],
+        "tips": [
+          "Standardize decision formats.",
+          "Ensure alignment with team processes."
+        ],
+        "videoCaption": "Configuring decisions"
+      }
+    },
+    "tasks": {
+      "ownership": {
+        "title": "Task Owner",
+        "description": "Assignment of ownership for tasks. The task owner is responsible for overseeing the task and ensuring it is completed successfully.",
+        "prerequisites": [
+          "The user must be a member of a project to change a task owner.",
+          "Existing tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Open the task details by clicking a task.",
+          "Click the current owner (just below the <strong>Owned by</strong> label) to open the dropdown menu.",
+          "Select an owner."
+        ],
+        "tips": [
+          "Each task must have one owner."
+        ],
+        "videoCaption": "Changing task owner"
+      },
+      "assignee": {
+        "title": "Task Assignee",
+        "description": "Assignment of an assignee for tasks. The task assignee is responsible for completing the task and carrying out the required work.",
+        "prerequisites": [
+          "The user must be a member of a project to change a task assignee.",
+          "Existing tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Open the task details by clicking a task.",
+          "Click the current assignee, or click <strong>Select a position or a group</strong> if the field is empty (just below the <strong>Assigned to</strong> label) to open the dropdown menu.",
+          "Select an assignee."
+        ],
+        "tips": [
+          "The assignee field can be left empty.",
+          "A task can also be assigned to a group."
+        ],
+        "videoCaption": "Changing task assignee"
+      },
+      "workflow": {
+        "title": "Task Workflow",
+        "description": "Enables users to move tasks between statuses and track progress to completion.",
+        "prerequisites": [
+          "Existing tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          {
+            "text": "Use one of the following methods to change status:",
+            "notes": [
+              "Drag and drop a task to a different column on the board (if in Kanban view).",
+              "Open task details and click a status icon."
+            ]
+          }
+        ],
+        "tips": [
+          "Keep statuses up to date.",
+          "There are 6 statuses: On Hold, To Do, In Progress, Verification, Approved, and Closed.",
+          "To cancel a task, open task details and select <strong>Cancel</strong> from the three-dot menu icon in the upper-right corner."
+        ],
+        "videoCaption": "Managing task workflow"
+      },
+      "create": {
+        "title": "Create Task",
+        "description": "Provides functionality for creating and defining tasks within a project.",
+        "prerequisites": [
+          "Existing project.",
+          "The user must be a member of a project to create tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Click <strong>NEW TASK</strong> in the upper-right corner.",
+          "Enter a concise <strong>Title</strong> for the task.",
+          "Add a description, assignee, or due date if needed.",
+          "Click <strong>SAVE</strong>."
+        ],
+        "tips": [
+          "Use the description field to add checklists or links to relevant documents."
+        ],
+        "videoCaption": "Creating task"
+      },
+      "dependencies": {
+        "title": "Dependencies",
+        "description": "Management of task dependencies to define structured relationships and sequencing between work items. A task can be assigned parent or child dependencies to reflect hierarchical and execution relationships.",
+        "prerequisites": [
+          "Existing items.",
+          "Starter or Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Open task details by clicking a task.",
+          "Scroll down to the <strong>Dependencies</strong> section.",
+          "Decide whether to add a parent or child dependency.",
+          "Click <strong>Add +</strong> to the right of the dependency type.",
+          "Search for the work item.",
+          "Click the work item to add it as a dependency to the task."
+        ],
+        "tips": [
+          "Link related items using parent and child dependencies to reflect execution order.",
+          "You can add all types of work items (tasks, decisions, documents) as dependencies to a task.",
+          "Click the <strong>X</strong> icon on the item to remove it as a dependency."
+        ],
+        "videoCaption": "Managing dependencies"
+      },
+      "funnels": {
+        "title": "Funnels",
+        "description": "Creation and management of task filters and sorting preferences for easier access to specific tasks.",
+        "prerequisites": [
+          "Existing tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Click <strong>Funnel Settings</strong>.",
+          "Filter tasks by status, owner, assignee, or tags.",
+          "Sort tasks by title, importance, project code, due date, etc.",
+          "Click <strong>New funnel from current setup</strong>.",
+          "Enter new funnel name.",
+          "Select Kanban or List to save the funnel in the corresponding view.",
+          "Click <strong>Save</strong> in the dialog."
+        ],
+        "tips": [
+          "If <strong>Funnel settings</strong> are not visible, click the three vertical lines next to <strong>NEW TASK</strong> to open them.",
+          "To keep <strong>Funnel Settings</strong> permanently visible, check the checkbox next to <strong>Show funnel details</strong> once the funnel settings are open.",
+          "You can use funnels to filter and sort all your work items in My Work."
+        ],
+        "videoCaption": "Using funnels"
+      },
+      "detailsHeader": {
+        "title": "Task Details Header",
+        "description": "The Task Details Header contains key actions and quick-access options related to the selected task. It allows users to manage, share, and modify the task directly from the header area.",
+        "prerequisites": [
+          "Existing tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Open the task details by clicking a task.",
+          "Use the icons in the task details header to perform available task actions."
+        ],
+        "tips": [
+          "The header includes options such as copying the task link, switching between full and compact view, adding followers, managing attachments, duplicating the task, and closing the task details.",
+          "The use of status icons in the header is described in the <strong>Task Workflow</strong> section.",
+          "Editing the task details is described in the <strong>Edit Task Details</strong> section."
+        ],
+        "videoCaption": "Using task details header"
+      },
+      "edit": {
+        "title": "Edit Task Details",
+        "description": "The Edit Task Details section enables users to update task information and adjust key details as the task progresses.",
+        "prerequisites": [
+          "Existing tasks."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Tasks</strong> in the left sidebar.",
+          "Open the task details by clicking a task.",
+          "Edit the task details."
+        ],
+        "tips": [
+          "Edit the task title or description.",
+          "Add or remove the start and due dates.",
+          "Change the task importance or tags.",
+          "Click the <strong>Change log</strong> to review all changes made to the task since its creation.",
+          "Use the comment section to inform other project members about updates or additional information.",
+          "Editing <strong>Task Owner</strong>, <strong>Task Assignee</strong>, and <strong>Dependencies</strong> is described in the corresponding sections.",
+          "Task header actions are described in the <strong>Task Details Header</strong> section."
+        ],
+        "videoCaption": "Editing task details"
+      }
+    },
+    "decisions": {
+      "ownership": {
+        "title": "Decision Editor",
+        "description": "Assignment of editing responsibility for decisions. The decision editor is responsible for maintaining the decision and ensuring it is finalized successfully.",
+        "prerequisites": [
+          "The user must be a member of a project to change the decision editor.",
+          "Starter or Professional pricing plan.",
+          "Existing decisions."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Open the decision details by clicking a decision.",
+          "Click the current editor (just below the <strong>Editor</strong> label) to open the dropdown menu.",
+          "Select an editor."
+        ],
+        "tips": [
+          "Each decision must have one editor."
+        ],
+        "videoCaption": "Changing decision editor"
+      },
+      "maker": {
+        "title": "Decision Maker",
+        "description": "Assignment of a decision maker for decisions. The decision maker is responsible for making the final decision.",
+        "prerequisites": [
+          "The user must be a member of a project to change the decision maker.",
+          "Starter or Professional pricing plan.",
+          "Existing decisions."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Open the decision details by clicking a decision.",
+          "Click the current decision maker (just below the <strong>Decision Maker</strong> label) to open the dropdown menu.",
+          "Select a decision maker."
+        ],
+        "tips": [
+          "Each decision must have one assigned decision maker."
+        ],
+        "videoCaption": "Changing decision maker"
+      },
+      "workflow": {
+        "title": "Decision Workflow",
+        "description": "Enables users to move decisions between statuses and track progress to completion.",
+        "prerequisites": [
+          "Starter or Professional pricing plan.",
+          "Existing decisions."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          {
+            "text": "Use one of the following methods to change status:",
+            "notes": [
+              "Drag and drop a decision to a different column on the board (if in Kanban view).",
+              "Open decision details and click a status icon."
+            ]
+          }
+        ],
+        "tips": [
+          "Keep statuses up to date.",
+          "There are 5 statuses: On Hold, In Progress, Verification, Approved, and Cancelled."
+        ],
+        "videoCaption": "Managing decision workflow"
+      },
+      "create": {
+        "title": "Create Decision",
+        "description": "Creation and documentation of decisions to formally record project-related choices.",
+        "prerequisites": [
+          "Existing project.",
+          "The user must be a member of a project to create decisions.",
+          "Starter or Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Click <strong>NEW DECISION</strong> in the upper-right corner.",
+          "Enter a concise <strong>Title</strong> for the decision.",
+          "Select a <strong>Decision Maker</strong>.",
+          "Describe the context, options considered, and the final decision in the description.",
+          "Click <strong>SAVE</strong>."
+        ],
+        "tips": [
+          "Link the decision to relevant tasks using the <strong>Dependencies</strong> section."
+        ],
+        "videoCaption": "Creating decision"
+      },
+      "dependencies": {
+        "title": "Dependencies",
+        "description": "Management of decision dependencies to define structured relationships and sequencing between work items. A decision can be assigned parent or child dependencies to reflect hierarchical and execution relationships.",
+        "prerequisites": [
+          "Existing items.",
+          "Starter or Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Open decision details by clicking a decision.",
+          "Scroll down to the <strong>Dependencies</strong> section.",
+          "Decide whether to add a parent or child dependency.",
+          "Click <strong>Add +</strong> to the right of the dependency type.",
+          "Search for the work item.",
+          "Click the work item to add it as a dependency to the decision."
+        ],
+        "tips": [
+          "Link related items using parent and child dependencies to reflect execution order.",
+          "You can add all types of work items (tasks, decisions, documents) as dependencies to a decision.",
+          "Click the <strong>X</strong> icon on the item to remove it as a dependency."
+        ],
+        "videoCaption": "Managing dependencies"
+      },
+      "funnels": {
+        "title": "Funnels",
+        "description": "Creation and management of decision filters and sorting preferences for easier access to specific decisions.",
+        "prerequisites": [
+          "Existing decisions.",
+          "Starter or Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Click <strong>Funnel Settings</strong>.",
+          "Filter decisions by status, decision maker, affected groups, or tags.",
+          "Sort decisions by title, importance, decision date, etc.",
+          "Click <strong>New funnel from current setup</strong>.",
+          "Enter new funnel name.",
+          "Select Kanban or List to save the funnel in the corresponding view.",
+          "Click <strong>Save</strong> in the dialog."
+        ],
+        "tips": [
+          "If <strong>Funnel settings</strong> are not visible, click the three vertical lines next to <strong>NEW DECISION</strong> to open them.",
+          "To keep <strong>Funnel Settings</strong> permanently visible, check the checkbox next to <strong>Show funnel details</strong> once the funnel settings are open.",
+          "You can use funnels to filter and sort all your work items in My Work."
+        ],
+        "videoCaption": "Using funnels"
+      },
+      "detailsHeader": {
+        "title": "Decision Details Header",
+        "description": "The Decision Details Header contains key actions and quick-access options related to the selected decision. It allows users to manage, share, and modify the decision directly from the header area.",
+        "prerequisites": [
+          "Starter or Professional pricing plan.",
+          "Existing decisions."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Open the decision details by clicking a decision.",
+          "Use the icons in the decision details header to perform available decision actions."
+        ],
+        "tips": [
+          "The header includes options such as copying the decision link, switching between full and compact view, adding followers, managing attachments, and closing the decision details.",
+          "The use of status icons in the header is described in the <strong>Decision Workflow</strong> section.",
+          "Editing the decision details is described in the <strong>Edit Decision Details</strong> section."
+        ],
+        "videoCaption": "Using decision details header"
+      },
+      "edit": {
+        "title": "Edit Decision Details",
+        "description": "The Edit Decision Details section enables users to update decision information and adjust key details as the decision progresses.",
+        "prerequisites": [
+          "Starter or Professional pricing plan.",
+          "Existing decisions."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Decisions</strong> in the left sidebar.",
+          "Open the decision details by clicking a decision.",
+          "Edit the decision details."
+        ],
+        "tips": [
+          "Edit the decision title or description.",
+          "Edit the start and decision dates.",
+          "Change the decision importance or tags.",
+          "Click the <strong>Change log</strong> to review all changes made to the decision since its creation.",
+          "Use the comment section to inform other project members about updates or additional information.",
+          "Editing <strong>Decision Editor</strong>, <strong>Decision Maker</strong>, and <strong>Dependencies</strong> is described in the corresponding sections.",
+          "Decision header actions are described in the <strong>Decision Details Header</strong> section."
+        ],
+        "videoCaption": "Editing decision details"
+      }
+    },
+    "ia": {
+      "upload": {
+        "title": "Upload Images",
+        "description": "Instructions for uploading images to Q360.",
+        "prerequisites": [
+          "Professional pricing plan."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Image Analytics</strong> in the left sidebar.",
+          "Click <strong>Start by uploading images</strong> in the center or <strong>Upload images</strong> in the upper-right corner.",
+          "Drag and drop an image into the rectangle, or click <strong>Browse</strong> to select one.",
+          "After the upload starts, a status panel is displayed showing the progress of image upload and analysis.",
+          "Once processing is complete, click <strong>View images</strong> in the status panel to open the uploaded image."
+        ],
+        "tips": [
+          "Click <strong>Download report</strong> in the status panel to download a CSV report of uploaded image analysis results.",
+          "Supported formats: PNG, JPG, JPEG, HEIC, HEIF, GIF, BMP, WEBP, ICO, TIFF, MPO.",
+          "Maximum file size: 20 MB."
+        ],
+        "videoCaption": "Uploading images"
+      },
+      "funnels": {
+        "title": "Funnels",
+        "description": "Management of image filters and sorting preferences for easier selections and access to specific images within a project.",
+        "prerequisites": [
+          "Professional pricing plan.",
+          "The user must have uploaded at least 1 image."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Image Analytics</strong> in the left sidebar.",
+          "Filter images by object, tag, location, or date.",
+          "Click <strong>X images selected in total</strong> below the map to see filtered images."
+        ],
+        "tips": [
+          "Move around the map to discover images with location data.",
+          "Sort objects and tags by name and number of occurrences.",
+          "Objects, tags, and dates excluded by the selected funnel are displayed with reduced visual emphasis."
+        ],
+        "videoCaption": "Managing funnels"
+      },
+      "bulk": {
+        "title": "Bulk Editing",
+        "description": "Enables simultaneous editing of multiple images.",
+        "prerequisites": [
+          "Professional pricing plan.",
+          "The user must have uploaded at least 2 images.",
+          "The user must select at least 2 images."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Image Analytics</strong> in the left sidebar.",
+          "Click <strong>X images selected in total</strong> below the map.",
+          "Select images for bulk editing.",
+          "Click <strong>Bulk edit</strong> in the upper-right corner.",
+          "Edit title, description, date taken, location, or tags.",
+          "Click <strong>Save</strong>."
+        ],
+        "tips": [
+          "Use caution with bulk actions.",
+          "Filter images by object, tag, date, or location before editing."
+        ],
+        "videoCaption": "Bulk editing"
+      },
+      "editing": {
+        "title": "Image Editing",
+        "description": "Provides tools for adjusting individual images.",
+        "prerequisites": [
+          "Professional pricing plan.",
+          "The user must have uploaded at least 1 image."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Image Analytics</strong> in the left sidebar.",
+          "Filter images by using funnels.",
+          "Click <strong>X images selected in total</strong> below the map.",
+          "Click the image you want to edit.",
+          "Use tools to edit."
+        ],
+        "tips": [
+          "Click the three-dot menu icon in the upper-right corner to see <strong>Revert Changes</strong> and <strong>Delete</strong> options.",
+          "Click the <strong>Download</strong> icon in the upper-right corner to download the image."
+        ],
+        "videoCaption": "Editing images"
+      }
+    },
+    "prjDashboard": {
+      "customize": {
+        "title": "Customize Dashboard",
+        "description": "The Customize Project Dashboard feature allows users to modify the layout of the project dashboard by adding, removing, and rearranging widgets. It focuses on organizing how information is displayed within the dashboard.",
+        "prerequisites": [
+          "Existing project."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Dashboard</strong> in the left sidebar.",
+          "Click the <strong>Customize Project Dashboard</strong> icon in the upper-right corner to enable dashboard customization mode.",
+          "Click the <strong>Add Widgets</strong> button to open the dropdown menu.",
+          "Drag and drop a widget from the dropdown menu onto the project dashboard.",
+          "Drag and drop a widget to change its position on the dashboard.",
+          "Click the <strong>X</strong> icon in the top right corner of a widget to remove the widget from the dashboard.",
+          "Click the <strong>Save Changes</strong> button in the upper-right corner to save your changes and exit dashboard customization mode.",
+          "Click the <strong>Cancel</strong> button to discard all unsaved changes and restore the dashboard to its last saved state.",
+          "Click the <strong>Reset Default Layout</strong> button to restore the dashboard's default layout."
+        ],
+        "tips": [
+          "Available widgets include <strong>Project Portfolio Ownership</strong>, <strong>Group Overview</strong>, <strong>Recently Active</strong>, <strong>Collaboration</strong>, and <strong>Remaining Workload</strong>.",
+          "Changes to the dashboard layout are not applied until the <strong>Save Changes</strong> button is clicked."
+        ],
+        "videoCaption": "Customizing project dashboard"
+      },
+      "configure": {
+        "title": "Configure & Use Widgets",
+        "description": "Project dashboard widgets allow users to explore and interact with project data directly from the dashboard. Each widget displays specific data, such as project portfolio ownership, collaboration, recently active members, and workload distribution and responsibilities. Widgets can be adjusted to display different types of data depending on user selection.",
+        "prerequisites": [
+          "Existing project."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Project Dashboard</strong> in the left sidebar.",
+          "Locate <strong>Remaining Workload</strong> widget on the left side of the project dashboard. It displays the amount of remaining work for the next six months, including overdue items and items without assigned due dates.",
+          "Click the <strong>All</strong> label in the <strong>Remaining Workload</strong> widget to open the dropdown menu.",
+          "Select <strong>Tasks</strong>, <strong>Decisions</strong>, or <strong>Entries</strong> from the dropdown menu to view the remaining workload for the selected type of work item.",
+          "Locate <strong>Group Overview</strong> widget on the right side of the project dashboard. It displays the work items assigned to the currently selected group and its members.",
+          "Click the currently selected group in the <strong>Group Overview</strong> widget to open the dropdown menu.",
+          "Select a group from the dropdown menu to view the assigned work items.",
+          "If there are work items assigned to a group or its members, click the number to view the exact assigned items."
+        ],
+        "tips": [
+          "Available widgets include <strong>Project Portfolio Ownership</strong>, <strong>Group Overview</strong>, <strong>Recently Active</strong>, <strong>Collaboration</strong>, and <strong>Remaining Workload</strong>.",
+          "Adding and removing widgets is described in the <strong>Customize Dashboard</strong> section.",
+          "To access <strong>Team</strong> settings via the <strong>Recently Active</strong> or <strong>Collaboration</strong> widgets, click the two-person icon in the top right corner.<br>Project Admin rights are required to access the settings.",
+          "To access <strong>Project Portfolio Settings</strong> via the <strong>Project Portfolio Ownership</strong> widget, click the pencil icon in the top right corner.<br>Organization Admin or Project Portfolio Admin rights are required to access project portfolio settings."
+        ],
+        "videoCaption": "Configuring and using widgets"
+      }
+    }
+  }
+}

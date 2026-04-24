@@ -2,8 +2,9 @@ import { useState, useRef, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { Link, useNavigate } from "react-router";
 import { Search } from "lucide-react";
-import { articles } from "@/app/data/articles";
+import { articles, categoryI18nKeys, type Article } from "@/app/data/articles";
 import { SparkleIcon } from "./SparkleIcon";
+import { useTranslation } from "react-i18next";
 
 interface SearchBarProps {
   className?: string;
@@ -15,25 +16,53 @@ interface SearchBarProps {
 
 export function SearchBar({ className, inputClassName, placeholder = "Search for articles or ask a question", variant = "large", useBorder = false }: SearchBarProps) {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
   const searchRef = useRef<HTMLDivElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Filter articles based on search query
+  const getTranslatedTitle = (article: Article) =>
+    article.i18nKey ? (t(`${article.i18nKey}.title`) as string) : article.title;
+
+  const getTranslatedCategory = (category: string) =>
+    categoryI18nKeys[category] ? (t(categoryI18nKeys[category]) as string) : category;
+
+  const getSearchableText = (article: Article): string => {
+    if (article.i18nKey) {
+      const title = t(`${article.i18nKey}.title`) as string;
+      const description = t(`${article.i18nKey}.description`) as string;
+      const steps = t(`${article.i18nKey}.steps`, { returnObjects: true });
+      const tips = t(`${article.i18nKey}.tips`, { returnObjects: true });
+      const stepsText = Array.isArray(steps) ? steps.join(' ') : '';
+      const tipsText = Array.isArray(tips) ? tips.join(' ') : '';
+      return `${title} ${description} ${stepsText} ${tipsText}`;
+    }
+    const contentText = article.content ? article.content.replace(/<[^>]*>/g, '') : '';
+    return `${article.title} ${contentText}`;
+  };
+
+  const getContentPreview = (article: Article): string => {
+    if (article.i18nKey) {
+      const description = t(`${article.i18nKey}.description`) as string;
+      return description.length > 120 ? description.substring(0, 120) + '...' : description;
+    }
+    const plainText = (article.content ?? '')
+      .replace(/<[^>]*>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return plainText.length > 120 ? plainText.substring(0, 120) + '...' : plainText;
+  };
+
+  // Filter articles based on search query against translated content
   const searchResults = searchQuery.trim()
     ? articles.filter(article => {
         const query = searchQuery.toLowerCase();
-        const titleMatch = article.title.toLowerCase().includes(query);
-        const categoryMatch = article.category.toLowerCase().includes(query);
-        
-        // Strip HTML tags from content for text search
-        const contentText = article.content.replace(/<[^>]*>/g, '').toLowerCase();
-        const contentMatch = contentText.includes(query);
-        
-        return titleMatch || categoryMatch || contentMatch;
-      }).slice(0, 5) // Limit to 5 results
+        const searchText = getSearchableText(article).toLowerCase();
+        const categoryText = getTranslatedCategory(article.category).toLowerCase();
+        return searchText.includes(query) || categoryText.includes(query);
+      }).slice(0, 5)
     : [];
 
   // Update dropdown position
@@ -90,18 +119,6 @@ export function SearchBar({ className, inputClassName, placeholder = "Search for
       };
     }
   }, [isOpen]);
-
-  // Extract plain text from HTML content and truncate
-  const getContentPreview = (htmlContent: string): string => {
-    const plainText = htmlContent
-      .replace(/<[^>]*>/g, '') // Remove HTML tags
-      .replace(/\s+/g, ' ') // Normalize whitespace
-      .trim();
-    
-    return plainText.length > 120 
-      ? plainText.substring(0, 120) + '...' 
-      : plainText;
-  };
 
   const isLarge = variant === "large";
 
@@ -180,13 +197,13 @@ export function SearchBar({ className, inputClassName, placeholder = "Search for
                 >
                   <div>
                     <div className="text-xs text-muted-foreground mb-1">
-                      {article.category}
+                      {getTranslatedCategory(article.category)}
                     </div>
                     <div className="font-medium text-foreground mb-1">
-                      {article.title}
+                      {getTranslatedTitle(article)}
                     </div>
                     <div className="text-sm text-muted-foreground line-clamp-2">
-                      {getContentPreview(article.content)}
+                      {getContentPreview(article)}
                     </div>
                   </div>
                 </Link>

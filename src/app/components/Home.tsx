@@ -1,23 +1,33 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router";
 import { Search, ChevronRight } from "lucide-react";
-import { articles, categories } from "@/app/data/articles";
+import { articles, categories, categoryI18nKeys } from "@/app/data/articles";
 import Quantum360Logo from "@/imports/Quantum360Logo-45-29";
 import illustrationImage from "figma:asset/89895aecadff518547a32e4207f6b085fec9ea31.png";
 import speechBubbleImage from "figma:asset/874a11895e6cb0645342f747598bf4b4a6432060.png";
 import backgroundImage from "figma:asset/5cb354acd7cc77f3edcd208b2407f7180d152b67.png";
 import { SearchBar } from "./SearchBar";
 import { LoginToggleButton } from "./LoginToggleButton";
+import { useTranslation } from "react-i18next";
 
 export function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [scrollY, setScrollY] = useState(0);
+  const { t } = useTranslation();
+
+  const getTranslatedTitle = (article: (typeof articles)[0]) =>
+    article.i18nKey ? (t(`${article.i18nKey}.title`) as string) : article.title;
+
+  const getTranslatedCategory = (category: string) =>
+    categoryI18nKeys[category] ? (t(categoryI18nKeys[category]) as string) : category;
 
   const filteredArticles = searchQuery
-    ? articles.filter(article =>
-        article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.category.toLowerCase().includes(searchQuery.toLowerCase())
-      )
+    ? articles.filter(article => {
+        const title = getTranslatedTitle(article).toLowerCase();
+        const category = getTranslatedCategory(article.category).toLowerCase();
+        const query = searchQuery.toLowerCase();
+        return title.includes(query) || category.includes(query);
+      })
     : articles;
 
   const articlesByCategory = categories.map(category => ({
@@ -72,12 +82,12 @@ export function Home() {
           </div>
           
           <div className="max-w-3xl mx-auto px-6 relative z-10">
-            <h1 className="mb-8 text-center text-[32px] drop-shadow-md font-bold">How can we help you?</h1>
+            <h1 className="mb-8 text-center text-[32px] drop-shadow-md font-bold">{t('ui.heroTitle')}</h1>
 
             {/* Search Bar */}
             <SearchBar
               variant="large"
-              placeholder="Search for articles or ask a question"
+              placeholder={t('ui.searchPlaceholder')}
               className="w-full"
             />
           </div>
@@ -86,7 +96,7 @@ export function Home() {
         {/* All Articles by Category */}
         <section className="max-w-6xl mx-auto px-6 py-12">
           <h3 className="mb-8" style={{ fontSize: 'var(--text-h3)', fontWeight: 'var(--font-weight-bold)', lineHeight: '1.4', color: 'var(--foreground)' }}>
-            {searchQuery ? "Search Results" : "Browse by Category"}
+            {searchQuery ? t('ui.searchResults') : t('ui.browseByCategory')}
           </h3>
           
           {articlesByCategory.length === 0 ? (
@@ -98,7 +108,7 @@ export function Home() {
               {articlesByCategory.map(({ category, articles }) => (
                 <div key={category} className="bg-card rounded-[16px] border border-border overflow-hidden flex flex-col pb-2">
                   <div className="px-5 pt-5 pb-3">
-                    <h4 style={{ fontSize: '20px', fontWeight: 'var(--font-weight-normal)', lineHeight: '1.4', color: '#9497B1' }}>{category}</h4>
+                    <h4 style={{ fontSize: '20px', fontWeight: 'var(--font-weight-normal)', lineHeight: '1.4', color: '#9497B1' }}>{getTranslatedCategory(category)}</h4>
                   </div>
                   <div className="flex-1">
                     {articles.map(article => (
@@ -108,7 +118,7 @@ export function Home() {
                           className="block px-5 py-3 hover:bg-[#F7F7FC] transition-colors group"
                         >
                           <span className="text-card-foreground group-hover:text-primary transition-colors leading-snug">
-                            {article.title}
+                            {getTranslatedTitle(article)}
                           </span>
                         </Link>
                       )
@@ -125,7 +135,7 @@ export function Home() {
       <footer className="bg-card border-t border-border mt-16">
         <div className="max-w-6xl mx-auto px-6 py-8">
           <p className="text-center text-muted-foreground mb-4">
-            Can't find what you're looking for? <a href="#" className="text-primary hover:underline">Contact Support</a>
+            {t('ui.cantFind')} <a href="#" className="text-primary hover:underline">{t('ui.contactSupportLink')}</a>
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-muted-foreground text-sm">
             <p>© Quantum Software 2026</p>
