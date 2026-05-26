@@ -684,34 +684,9 @@
         ],
         "videoCaption": "Creating entry"
       },
-      "qaStages": {
-        "title": "Quality Assurance Stages",
-        "description": "The QA workflow governs how entries are reviewed and approved before delivery. Producer QA stages run first, followed by receiver QA stages — each stage can be assigned to a team member, given a delivery date, and either accepted or rejected, with rejections triggering a new document version.",
-        "prerequisites": [
-          "Delivery Plan module purchased."
-        ],
-        "steps": [
-          "Navigate to the desired project.",
-          "Select <strong>Delivery Plan</strong> in the left sidebar.",
-          "Click <strong>DLP Settings</strong> in the upper-right corner.",
-          "Click <strong>Quality Assurance (Producer)</strong> or <strong>Quality Assurance (Receiver)</strong>.",
-          "Click a producer or receiver QA stage.",
-          "Edit the QA stage by changing its title, description, number of days to perform the stage, and whether it should be performed by the assignee.",
-          "Click <strong>Save</strong>."
-        ],
-        "tips": [
-          "You can delete default QA stages.",
-          "Reorder QA stages by dragging and dropping them.",
-          "You can create custom QA stages.",
-          "The organization creating and delivering entries is called the producer, while the organization receiving and approving them is called the receiver.",
-          "There are 4 default producer QA stages: self control, interdisciplinary control, document control, and discipline control.",
-          "There are 2 default receiver QA stages: discipline control and publishing control."
-        ],
-        "videoCaption": "Browsing QA stages"
-      },
       "createQAStage": {
         "title": "Create QA Stage",
-        "description": "QA stages define the review checkpoints that entries must pass before delivery. Stages are created at the project level in DLP Settings and then enabled per delivery package as needed.",
+        "description": "Quality Assurance (QA) stages define the review checkpoints that entries must pass before delivery. Producer QA stages run first, followed by receiver QA stages — each stage can be assigned to a team member, given a delivery date, and either accepted or rejected, with rejections triggering a new document version.<br>There are 4 default producer QA stages: self control, interdisciplinary control, document control, and discipline control. There are 2 default receiver QA stages: discipline control and publishing control.",
         "prerequisites": [
           "Delivery Plan module purchased.",
           "Existing delivery package."
@@ -730,13 +705,44 @@
           "Select <strong>Required</strong> or <strong>Optional</strong> from the dropdown menu to enable the QA stage for the delivery package."
         ],
         "tips": [
-          "You can delete custom QA stages.",
+          "You can delete default and custom QA stages.",
           "Reorder QA stages by dragging and dropping them.",
           "The organization creating and delivering entries is called the producer, while the organization receiving and approving them is called the receiver.",
           "Users from the producer organization can create, edit, and delete both producer and receiver QA stages, but can only enable or disable producer QA stages on a delivery package.",
           "Users from the receiver organization can create, edit, and delete both producer and receiver QA stages, but can only enable or disable receiver QA stages on a delivery package."
         ],
         "videoCaption": "Creating QA stage"
+      },
+      "performQA": {
+        "title": "Perform QA",
+        "description": "QA stages are reviewed and submitted from within the document entry. Each stage requires a comment or attached documentation before it can be approved or rejected.",
+        "prerequisites": [
+          "Delivery Plan module purchased.",
+          "Existing delivery package with QA stages configured.",
+          "Document entry with an uploaded file.",
+          "A QA stage assigned to the logged-in user."
+        ],
+        "steps": [
+          "Navigate to the desired project.",
+          "Select <strong>Delivery Plan</strong> in the left sidebar.",
+          "Click <strong>All my delivery packages</strong> in the upper-left corner to open a dropdown menu.",
+          "Select a delivery package from the dropdown menu.",
+          "If not selected, click the <strong>Entries</strong> tab.",
+          "Click on the document entry you want to perform QA on.",
+          "Click <strong>Start Producer QA</strong>.",
+          "Click the QA stage assigned to you — it will be labelled <strong>Performed by you</strong>.",
+          "Click <strong>Approve</strong> or <strong>Request new version</strong>.",
+          "Enter a comment in the <strong>Feedback</strong> section.",
+          "Click <strong>Submit</strong>."
+        ],
+        "tips": [
+          "The <strong>Submit</strong> button remains disabled until at least a comment or attachment is provided.",
+          "If the delivery package requires documentation, an attachment is mandatory — a comment alone is not sufficient.",
+          "Rejecting a stage triggers a new document version, restarting the QA cycle.",
+          "Producer QA stages are completed before receiver QA stages begin.",
+          "You can edit a submitted QA stage within 10 minutes of the last approval."
+        ],
+        "videoCaption": "Performing QA"
       },
       "publish": {
         "title": "Publish Entry",

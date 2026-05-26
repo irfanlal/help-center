@@ -1212,8 +1212,8 @@ export const articles: Article[] = [
         labelKey: 'categories.deliveryPlan.entryTypes.title',
       },
       {
-        link: '/article/qa-stages',
-        labelKey: 'categories.deliveryPlan.qaStages.title',
+        link: '/article/create-qa-stage',
+        labelKey: 'categories.deliveryPlan.createQAStage.title',
       },
     ],
   },
@@ -1237,8 +1237,8 @@ export const articles: Article[] = [
         labelKey: 'categories.deliveryPlan.createEntry.title',
       },
       {
-        link: '/article/qa-stages',
-        labelKey: 'categories.deliveryPlan.qaStages.title',
+        link: '/article/create-qa-stage',
+        labelKey: 'categories.deliveryPlan.createQAStage.title',
       },
     ],
   },
@@ -1309,31 +1309,7 @@ export const articles: Article[] = [
       },
     ],
   },
-  {
-    id: 'qa-stages',
-    title: 'Quality Assurance Stages',
-    category: 'Delivery Plan',
-    i18nKey: 'categories.deliveryPlan.qaStages',
-    video: {
-      src: 'https://stq360howto.z16.web.core.windows.net/assets/videos/100_Delivery-Plan/QA-Stages.mp4',
-      poster: '/assets/posters/100_Delivery-Plan/QA-Stages.png',
-      captionKey: 'categories.deliveryPlan.qaStages.videoCaption',
-    },
-    related: [
-      {
-        link: '/article/create-qa-stage',
-        labelKey: 'categories.deliveryPlan.createQAStage.title',
-      },
-      {
-        link: '/article/delivery-package',
-        labelKey: 'categories.deliveryPlan.deliveryPackage.title',
-      },
-      {
-        link: '/article/entry-types',
-        labelKey: 'categories.deliveryPlan.entryTypes.title',
-      },
-    ],
-  },
+
   {
     id: 'create-qa-stage',
     title: 'Create QA Stage',
@@ -1346,8 +1322,33 @@ export const articles: Article[] = [
     },
     related: [
       {
-        link: '/article/qa-stages',
-        labelKey: 'categories.deliveryPlan.qaStages.title',
+        link: '/article/perform-qa',
+        labelKey: 'categories.deliveryPlan.performQA.title',
+      },
+      {
+        link: '/article/delivery-package',
+        labelKey: 'categories.deliveryPlan.deliveryPackage.title',
+      },
+      {
+        link: '/article/entry-types',
+        labelKey: 'categories.deliveryPlan.entryTypes.title',
+      },
+    ],
+  },
+  {
+    id: 'perform-qa',
+    title: 'Perform QA',
+    category: 'Delivery Plan',
+    i18nKey: 'categories.deliveryPlan.performQA',
+    video: {
+      src: 'https://stq360howto.z16.web.core.windows.net/assets/videos/100_Delivery-Plan/Perform-QA.mp4',
+      poster: '/assets/posters/100_Delivery-Plan/Perform-QA.png',
+      captionKey: 'categories.deliveryPlan.performQA.videoCaption',
+    },
+    related: [
+      {
+        link: '/article/create-qa-stage',
+        labelKey: 'categories.deliveryPlan.createQAStage.title',
       },
       {
         link: '/article/delivery-package',
@@ -1465,8 +1466,8 @@ export const articles: Article[] = [
         labelKey: 'categories.fileDistribution.requestNewRevision.title',
       },
       {
-        link: '/article/qa-stages',
-        labelKey: 'categories.deliveryPlan.qaStages.title',
+        link: '/article/create-qa-stage',
+        labelKey: 'categories.deliveryPlan.createQAStage.title',
       },
     ],
   },

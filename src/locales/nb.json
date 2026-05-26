@@ -643,34 +643,9 @@
         ],
         "videoCaption": "Opprette oppføring"
       },
-      "qaStages": {
-        "title": "Kvalitetssikringsfaser",
-        "description": "QA-arbeidsflyten styrer hvordan oppføringer blir gjennomgått og godkjent før levering. Produsentens QA-faser kjøres først, etterfulgt av mottakerens QA-faser — hver fase kan tildeles et teammedlem, få en leveringsdato, og enten godkjennes eller avvises, der avvisninger utløser en ny dokumentversjon.",
-        "prerequisites": [
-          "Leveranseplan-modul kjøpt."
-        ],
-        "steps": [
-          "Naviger til ønsket prosjekt.",
-          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
-          "Klikk <strong>DLP-innstillinger</strong> øverst til høyre.",
-          "Klikk <strong>Kvalitetssikring (Produsent)</strong> eller <strong>Kvalitetssikring (Mottaker)</strong>.",
-          "Klikk på en QA-fase for produsent eller mottaker.",
-          "Rediger QA-fasen ved å endre tittel, beskrivelse, antall dager for å utføre fasen, og om den skal utføres av den tildelte.",
-          "Klikk <strong>Lagre</strong>."
-        ],
-        "tips": [
-          "Du kan slette standard QA-faser.",
-          "Omorganiser QA-faser ved å dra og slippe dem.",
-          "Du kan opprette egendefinerte QA-faser.",
-          "Organisasjonen som oppretter og leverer oppføringer kalles produsent, mens organisasjonen som mottar og godkjenner dem kalles mottaker.",
-          "Det finnes 4 standard QA-faser for produsent: egenkontroll, tverrfaglig kontroll, dokumentkontroll og fagkontroll.",
-          "Det finnes 2 standard QA-faser for mottaker: fagkontroll og publiseringskontroll."
-        ],
-        "videoCaption": "Bla gjennom QA-faser"
-      },
       "createQAStage": {
         "title": "Opprett QA-fase",
-        "description": "QA-faser definerer kontrollpunktene som oppføringer må passere før levering. Faser opprettes på prosjektnivå i DLP-innstillinger og aktiveres deretter per leveransepakke etter behov.",
+        "description": "QA-faser definerer kontrollpunktene som oppføringer må passere før levering. Produsentens QA-faser kjøres først, etterfulgt av mottakerens QA-faser — hver fase kan tildeles et teammedlem, få en leveringsdato, og enten godkjennes eller avvises, der avvisninger utløser en ny dokumentversjon.<br>Det finnes 4 standard QA-faser for produsent: egenkontroll, tverrfaglig kontroll, dokumentkontroll og fagkontroll. Det finnes 2 standard QA-faser for mottaker: fagkontroll og publiseringskontroll.",
         "prerequisites": [
           "Leveranseplan-modul kjøpt.",
           "Eksisterende leveransepakke."
@@ -689,13 +664,44 @@
           "Velg <strong>Påkrevd</strong> eller <strong>Valgfri</strong> fra nedtrekksmenyen for å aktivere QA-fasen for leveransepakken."
         ],
         "tips": [
-          "Du kan slette egendefinerte QA-faser.",
+          "Du kan slette standard- og egendefinerte QA-faser.",
           "Omorganiser QA-faser ved å dra og slippe dem.",
           "Organisasjonen som oppretter og leverer oppføringer kalles produsent, mens organisasjonen som mottar og godkjenner dem kalles mottaker.",
           "Brukere fra produsentorganisasjonen kan opprette, redigere og slette både produsent- og mottakerfaser, men kan kun aktivere eller deaktivere produsentens QA-faser i en leveransepakke.",
           "Brukere fra mottakerorganisasjonen kan opprette, redigere og slette både produsent- og mottakerfaser, men kan kun aktivere eller deaktivere mottakerens QA-faser i en leveransepakke."
         ],
         "videoCaption": "Opprette QA-fase"
+      },
+      "performQA": {
+        "title": "Utfør QA",
+        "description": "QA-stadier gjennomgås og sendes inn fra selve dokumentoppføringen. Hvert stadium krever en kommentar eller vedlagt dokumentasjon før det kan godkjennes eller avvises.",
+        "prerequisites": [
+          "Leveranseplan-modul kjøpt.",
+          "Eksisterende leveransepakke med konfigurerte QA-faser.",
+          "Dokumentoppføring med en opplastet fil.",
+          "En QA-fase tildelt den innloggede brukeren."
+        ],
+        "steps": [
+          "Naviger til ønsket prosjekt.",
+          "Velg <strong>Leveranseplan</strong> i venstre sidemeny.",
+          "Klikk <strong>Alle mine leveransepakker</strong> øverst til venstre for å åpne en nedtrekksmeny.",
+          "Velg en leveransepakke fra nedtrekksmenyen.",
+          "Klikk fanen <strong>Oppføringer</strong> hvis den ikke allerede er valgt.",
+          "Klikk på dokumentoppføringen du vil utføre QA på.",
+          "Klikk <strong>Start produsent-QA</strong>.",
+          "Klikk QA-fasen som er tildelt deg — den vil være merket med <strong>Utført av deg</strong>.",
+          "Klikk <strong>Godkjenn</strong> eller <strong>Be om ny versjon</strong>.",
+          "Skriv inn en kommentar i <strong>Tilbakemelding</strong>-seksjonen.",
+          "Klikk <strong>Send inn</strong>."
+        ],
+        "tips": [
+          "<strong>Send inn</strong>-knappen forblir deaktivert til minst en kommentar eller et vedlegg er lagt til.",
+          "Hvis leveransepakken krever dokumentasjon, er et vedlegg obligatorisk — en kommentar alene er ikke tilstrekkelig.",
+          "Avvisning av en fase utløser en ny dokumentversjon og starter QA-syklusen på nytt.",
+          "Produsent-QA-faser fullføres før mottaker-QA-faser begynner.",
+          "Du kan redigere en innsendt QA-fase innen 10 minutter etter siste godkjenning."
+        ],
+        "videoCaption": "Utføre QA"
       },
       "publish": {
         "title": "Publiser oppføring",
